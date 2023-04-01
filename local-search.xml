@@ -4,6 +4,64 @@
   
   
   <entry>
+    <title>信息系统审计</title>
+    <link href="/2023/04/01/%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F%E5%AE%A1%E8%AE%A1/"/>
+    <url>/2023/04/01/%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F%E5%AE%A1%E8%AE%A1/</url>
+    
+    <content type="html"><![CDATA[<h2 id="基础知识点"><a href="#基础知识点" class="headerlink" title="基础知识点"></a>基础知识点</h2><ol><li><p>信息系统审计的目的：评估并提供反馈、保证和建议。</p></li><li><p>信息系统审计的关注之处：<strong>可用性、保密性、完整性</strong></p></li><li><p>信息系统审计的组成部分：<br>①信息系统的管理、规划与组织<br>②信息系统技术基础设施与操作实务<br>③资产的保护<br>④灾难恢复与业务持续计划<br>⑤应用系统开发、获得、实施与维护<br>⑥业务流程评价与风险管理</p></li><li><p>信息系统审计原则：<br>①ISACA公告<br>②ISACA公告执业准则<br>③ISACA职业道德规范</p></li><li><p>信息系统审计基本原则：<br>①满足利益相关者需求<br>②端到端覆盖企业<br>③采用单一集成框架<br>④启用一种综合的方法<br>⑤区分治理和管理</p></li><li><p>风险的审计方法：企业风险、确定风险、风险评估、风险管理、风险沟通</p></li><li><p>审计的步骤：<br>①编制组织使用的信息系统清单并对其进行<strong>分类</strong><br>②决定哪些系统影响<strong>关键功能和资产</strong><br>③<strong>评估</strong>哪些风险影响这些系统及对商业运作的<strong>冲击</strong><br>④在上述评估的基础上对系统分级，<strong>决定审计优先值、资源、进度和频率</strong>。审计者可以制定年度审计计划，并列出一年之中要进行的审计项目。</p></li><li><p>审计流程</p></li></ol><h2 id="相关练习题"><a href="#相关练习题" class="headerlink" title="相关练习题"></a>相关练习题</h2><ol><li>信息系统审计的目的是评估并提供反馈、保证和建议。其关注支出可分为3类，分别是（）。<br>A.保密性、及时性、完整性<br>B.可用性、及时性、准确性<br>C.保密性、准确性、完整性<br><strong>D.可用性、保密性、完整性</strong></li><li>一般公认信息系统审计原则不包括（）。<br>A.ISACA公告B.ISACA公告职业准则C.ISACA职业道德规范<strong>D.COBIT框架</strong></li><li>基于风险方法进行信息系统审计的步骤是（）。<br>①决定哪些系统影响关键功能和资产<br>②评估哪些风险影响这些系统及商业运作的冲击<br>③编制组织使用的信息系统清单并对其分类<br>④在评估的基础上对系统分级，决定审计优先值&#x2F;资源&#x2F;进度和频率<br>A.①②③④B.①③②④C.③①④<strong>D.③①②④</strong></li><li>（）不属于信息系统审计的关注点。<br>A.完整性B.可用性C.保密性<strong>D.可扩展性</strong></li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>系统集成项目管理工程师</category>
+      
+      <category>服务管理</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>软考</tag>
+      
+      <tag>服务管理</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>服务管理</title>
+    <link href="/2023/04/01/%E6%9C%8D%E5%8A%A1%E7%AE%A1%E7%90%86/"/>
+    <url>/2023/04/01/%E6%9C%8D%E5%8A%A1%E7%AE%A1%E7%90%86/</url>
+    
+    <content type="html"><![CDATA[<h2 id="基础知识点"><a href="#基础知识点" class="headerlink" title="基础知识点"></a>基础知识点</h2><ol><li><p>信息技术服务标准（ITSS）的组成要素（PPTR）：<br>①人员：提供IT服务所需的<strong>人员</strong>及其知识、经验、和技术要求<strong>【正确选人】</strong><br>②流程：提供IT服务时，合理利用必要的资源，将输入转化为输出的一组<strong>相互关联和结构化的活动【正确做事】</strong><br>③技术：交付满足质量要求的IT服务应使用的技术或应具备的<strong>技术能力【高效做事】</strong><br>④资源：提供IT服务所依存和产生的<strong>有形及无形资产【保障做事】</strong></p></li><li><p>信息技术服务标准（ITSS）的IT服务生命周期（PIOIS）：<br>①规划设计：从客户业务战略出发，以<strong>需求为中心</strong>，参照ITSS对IT服务进行全面系统的<strong>战略规划和设计</strong>，为IT服务的部署实施做好准备，以确保提供满足客户需求的IT服务。<br>②部署实施：依据TISS建立管理体系、<strong>部署</strong>专用工具及服务解决方案<br>③服务运营：根据服务部署情况，依据ITSS采用过程方法，全面管理基础设施、服务流程、人员和业务连续性，实现<strong>业务运营与IT服务运营融合</strong><br>④持续改进：以及<strong>IT服务本身存在的缺陷，提出改进策略和方案</strong>，并对IT服务进行重新规划设计和部署实施，以提高IT服务质量。<br>⑤监督管理：依据ITSS对IT服务服务质量进行评价，并对服务供方的服务过程、交付结果实施<strong>监督和绩效评估</strong></p></li></ol><h2 id="相关练习题"><a href="#相关练习题" class="headerlink" title="相关练习题"></a>相关练习题</h2><ol><li>信息技术服务标准（ITSS）定义了IT服务的核心要素由人员、过程、技术和资源组成。（）要素关注“正确做事”。<br>A.人员<strong>B.过程</strong>C,技术D.资源</li><li>信息技术服务标准（ITSS）（）<br>A.工具、技术、流程、服务<br><strong>B.人员、过程、技术、资源</strong><br>C.计划、执行、检查、纠正<br>D.质量、成本、进度、风险</li><li>信息技术服务标准（ITSS）的IT服务生命周期模型中（）是在规划设计基础上依据ITSS建立管理系统、提供服务解决方案。<br>A.服务战略<strong>B.部署实施</strong>C.服务运营D.监督管理</li><li>信息技术服务标准（ITSS）是套成体系和综合配套的标准库，用于指导实施标准化和可信赖的IT服务，ITSS定义的服务生命周期不包括（）。<br><strong>A.战略部署</strong>B.规划设计C.部署实施D.服务运营</li><li>ITSS（信息技术服务标准）定义的IT服务生命周期包括（）。<br>A.计划、执行、检查、改进<br>B.规划设计、资源配置、服务运营、持续改进、监督管理<br>C.服务战略、规划设计、部署实施、服务运营、持续改进<br><strong>D.规划设计、部署实施、服务运营、持续改进、监督管理</strong></li><li>信息技术服务标准（ITSS）体系中定义的IT服务生命周期为（）。<br>A.启动过程一规划过程一执行过程一结束过程<br><strong>B.规划设计一部署实施一服务运营一持续改进一监督管理</strong><br>C.规划设计一部署实施一服务运营一持续改进<br>D.启动过程一规划过程一执行过程一监督过程一收尾过程</li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>系统集成项目管理工程师</category>
+      
+      <category>服务管理</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>软考</tag>
+      
+      <tag>服务管理</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>商业智能BI</title>
     <link href="/2023/04/01/%E5%95%86%E4%B8%9A%E6%99%BA%E8%83%BDBI/"/>
     <url>/2023/04/01/%E5%95%86%E4%B8%9A%E6%99%BA%E8%83%BDBI/</url>
