@@ -4,16 +4,18 @@
   
   
   <entry>
-    <title>信息化知识4</title>
-    <link href="/2023/03/30/%E4%BF%A1%E6%81%AF%E5%8C%96%E7%9F%A5%E8%AF%864/"/>
-    <url>/2023/03/30/%E4%BF%A1%E6%81%AF%E5%8C%96%E7%9F%A5%E8%AF%864/</url>
+    <title>商业智能BI</title>
+    <link href="/2023/04/01/%E5%95%86%E4%B8%9A%E6%99%BA%E8%83%BDBI/"/>
+    <url>/2023/04/01/%E5%95%86%E4%B8%9A%E6%99%BA%E8%83%BDBI/</url>
     
-    <content type="html"><![CDATA[<ol><li>电子商务主要功能：广告宣传、咨询洽谈、网上订购、网上支付、交易管理、商品推送、商户管理、账户管理、供应链管理等等。</li><li>电子商务基本特征：普遍性、便利性、整体性、安全性、协调性。</li><li>电子商务的基础设施：即网络基础设施、多媒体内容和网络出版的基础设施、信息传播的基础设施、商业服务的基础设施。此外，技术标准，政策、法律等事电子商务系统的重要保障和应用环境。</li><li>电子商务的类型：按照依托网络类型来划分，电子商务分为 EDI(电子数据交换)商务、Internet(互联网)商务、Intranet(企业内部网)商务和 Extranet(企业外部网)商务。<br>按照交易的内容，电子商务可以分为直接电子商务和间接电子商务。<br>按照交易对象，电子商务模式包括:企业与企业之间的电子商务(B2B)、商业企业与消费者之间的电子商务 (B2C)、消费者与消费者之间的电子商务 (C2C)。<br>电子商务与线下实体店有机结合向消费者提供商品和服务，称为 O2O 模式。</li><li>电子商务对国民经济和社会发展的意义和作用：推动国民经济增长方式转变、迎接经济全球化的机遇和挑战、促进社会主义市场经济体制走向完善。</li><li>加快电子商务发展的基本原则：<br>企业主体，政府推动。<br>统筹兼顾，虚实结合。<br>着力创新，注重实效。<br>规范发展，保障安全。</li><li>建立和完善电子商务发展的支撑保障体系：法律法规体系、标准规范体系、安全认证体系、信用体系、在线支付体系、现代物流体系、技术装备体系、服务体系、运行监控体系。</li><li>发展电子商务重点任务：提高大型企业电子商务水平、推动中小企业普及电子商务、促进重点行业电子商务发展、推动网络零售规模化发展、提高政府采购电子商务水平、促进跨境电子商务协同发展、持续推进移动电子商务发展、促进电子商务支撑体系协调发展、提高电子商务的安全保障和技术支撑能力。</li><li>商业智能基本概念：商业智能(Business Intelligence，BI)通常被理解为将组织中现有的数据转化为知识，帮助组织做出明智的业务经营决策。</li><li>商业智能系统应具有的主要功能：数据仓库、数据ETL、数据统计输出（报表）、分析功能。</li><li></li></ol>]]></content>
+    <content type="html"><![CDATA[<ol><li>商业智能BI的组成：<strong>数据仓库、联机事务处理、数据挖掘、数据备份和恢复</strong>等部分，<strong>商业智能BI不是什么新技术</strong>，它只是数据仓库、OLAP和数据挖掘等技术的综合运用。</li><li>商业智能BI的特点：涉及<strong>数据量大，运作复杂</strong>，要实现<strong>数据仓库、ETL、数据统计、数据分析</strong>计算量大</li><li>商业智能BI主要功能：<br>①<strong>数据仓库</strong>：高效的数据存储和访问方式；提供<strong>结构化和非结构化的数据存储</strong>，容量大，运行稳定，维护成本低，支持元数据管理，支持多种结构。<br>②<strong>数据ETL</strong>：支持多平台、多数据存储格式的数据组织，要求能自动地根据描述或者规则进行数据查找和理解。<br>③<strong>数据统计输出（报表）</strong>：报表能快速地完成数据统计的设计和展示，包括统计数据表样式和统计图展示。<br>④<strong>分析功能</strong>：通过业务规则形成分析内容，并且展示样式丰富，具有一定的交互要求。</li><li>商业智能BI实现三个层次：<br>①<strong>数据报表</strong><br>②<strong>多为数据分析</strong><br>③<strong>数据挖掘</strong><br>数据分析和数据挖掘技术并不是取代数据报表，报表系统依然有不可取代的优势。</li><li>商业智能BI数据分析系统的总体架构：源系统、数据仓库、多为数据库和客户端。</li><li>商业智能BI数据挖掘：源数据经过清洗和转换等成为适合于挖掘的数据集；固定形式的数据集上完成知识的提炼，最后以合适的知识模式用于进一步<strong>分析决策工作</strong></li><li>商业智能BI内容：<br>①在线事务处理OLTP：侧重于对数据库进行增加、修改和删除等日常事务操作<br>②在线分析处理OLAP：侧重于针对宏观问题全面分析数据，获得有价值的信息</li><li>OLAP：<br>ROLAP：基于<strong>关系</strong>数据库的OLAP实现<br>MOLAP：基于<strong>多维</strong>数据组织的OLAP实现<br>HOLAP：基于<strong>混合</strong>数据组织的OLAP实现</li><li>实现步骤：<br>需求分析→数据仓库建模→数据抽取→建立商业智能分析报表→用户培训和数据模拟测试→系统改进和完善</li></ol><h2 id="相关练习题"><a href="#相关练习题" class="headerlink" title="相关练习题"></a>相关练习题</h2><ol><li>以下（）不属于商业智能系统应具有的主要功能。<br>A.数据仓库B.分析功能C.数据ETL<strong>D.企业战略决策</strong></li><li>关于商业智能及其技术的描述，正确的是（）。<br>A.商业智能是数据仓库和OLTP技术的综合运用<br>B.ETL仅支持单一平台的多数据格式处理<br>C.OLTP支持复杂的分析操作，侧重决策支持<br><strong>D.MOLAP是产生多维数据报表的主要技术</strong></li><li>（）是从特定形式的数据中，集中提炼知识的过程。<br>A.数据分析B.数据抽取C.数据转换<strong>D.数据挖掘</strong></li><li>商业智能的实现有三个层次：数据报表、（）。<br>A.数据仓库、数据挖掘<br>B.数据ETL、多为数据分析<br><strong>C.多维数据分析、数据挖掘</strong><br>D.数据仓库、数据ETL</li></ol>]]></content>
     
     
     <categories>
       
       <category>系统集成项目管理工程师</category>
+      
+      <category>信息化知识</category>
       
     </categories>
     
@@ -22,7 +24,295 @@
       
       <tag>软考</tag>
       
-      <tag>中级</tag>
+      <tag>信息化知识</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>电子商务</title>
+    <link href="/2023/04/01/%E7%94%B5%E5%AD%90%E5%95%86%E5%8A%A1/"/>
+    <url>/2023/04/01/%E7%94%B5%E5%AD%90%E5%95%86%E5%8A%A1/</url>
+    
+    <content type="html"><![CDATA[<ol><li>原始电子商务定义：使用电子信息技术工具进行商务活动；使用了诸如电报、电话、广播、电视、传真以及计算机、计算机网络等手段、工具和技术进行商务活动。</li><li>现代电子商务定义：在网络环境下，买卖双方不需见面，实现网上（线上）交易、在线支付（或者货到付款）、智能配送以及相关综合服务的一切活动。</li><li>原始电子商务与现代电子商务的<strong>连接纽带</strong>：<strong>EDI（电子数据交换）</strong></li><li>电子商务的基本特征：<br>①普遍性：集成到了数字化的网络经济中。<br>②便利性：各方不受地域、环境、交易时间的限制。<br>③整体性：将人工操作和电子信息处理集成为一个不可分割的整体。<br>④安全性：<strong>加密、身份认证、防入侵、数字签名、防病毒等技术手段</strong>。<br>⑤协调性：是一种磋商、协调的过程。</li><li>电子商务的基础设施：<br>①网络基础设施：<strong>信息传输平台、运行TCP&#x2F;IP网络协议、网络接入</strong>。<br>②多媒体内容和网络出版的基础设施：负责管理涉及的各种信息，包括<strong>文字、语音、图像、视频</strong><br>③报文和信息传播的基础设施：<strong>电子邮件系统、在线交流系统、基于HTTP或HTTPS的信息传输系统、流媒体播放系统</strong><br>④商业服务的基础设施：<strong>商品目录和价格目录、电子支付网关、安全认证</strong><br>⑤技术标准：定义了<strong>用户接口、传输协议、信息发布标准、安全协议</strong>等技术细节<br>⑥政策、法律：<strong>税收制度、信用管理及收费、隐私问题</strong>等由政府制定的规章制度。</li><li>电子商务分类：<br>①<strong>企业与企业之间的电子商务（B2B）</strong>：阿里巴巴<br>②<strong>商业企业与消费者之间的电子商务（B2C）</strong>：京东、当当、苏宁<br>③<strong>消费者与消费者之间的电子商务（C2C）</strong>：淘宝、易趣、闲鱼<br>④<strong>O2O及Online To Offline</strong>：线上购买线下的商品和服务，实体店提货或者享受服务；O2O平台在网上把线下实体店的团购、优惠的信息推送给互联网用户，从而将这些用户转换为实体店的线下客户；能够迅速地促进门店销售，特别适合餐饮、院线、会所等服务类连锁企业，通过网络能够迅速掌控消费者的最近反馈，进行个性化服务和获取高粘度重复消费；淘宝网、京东商场，APP手机约车服务，携程网、途牛等旅游服务网上团购。</li><li>发展支撑保障体系：<br>①法律法规体系<br>②标准规范体系<br>③安全认证体系<br>④信用体系<br>⑤在线支付体系<br>⑥现代物流体系<br>⑦技术装备体系<br>⑧服务体系<br>⑨运行监控体系</li></ol><h2 id="相关练习题"><a href="#相关练习题" class="headerlink" title="相关练习题"></a>相关练习题</h2><ol><li>关于电子商务的描述，正确的是（）。<br>A.团购网站电话购物网上书店属于现代电子商务概念。<br><strong>B.某网站通过推广最新影讯信息及团购折扣活动促进影票销售，这种方式属于O2O模式</strong><br>C.某农产品在线交易网站，为某地区农产品公司和本地销售商提供线上交易和信息咨询等服务，这种方式属于C2C模式<br>D.消费者之间通过个人二手物品在线交易平台进行交易，这种商务模式属于B2C模式</li><li>（）是连接原始电子商务和现代化电子商务的纽带。<br><strong>A.EDI</strong>B.WebC.HTTPD.E-mail</li><li>通过网络把实体店的团购、优惠信息推送给互联网用户，从而将这些用户转换为实体店的客户，这种模式称为（）。<br>A.B2BB.C2CC.B2C<strong>D.O2O</strong></li><li>电子商务系统架构中，报文和信息传播的基础设施包括：（）、在线交流系统、基于HTTP或者HTTPS的信息传输系统、流媒体系统等。<br><strong>A.电子邮件系统</strong>B.电子付款系统C.安全认证系统D.目录服务系统</li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>系统集成项目管理工程师</category>
+      
+      <category>信息化知识</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>软考</tag>
+      
+      <tag>信息化知识</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>供应链管理SCM</title>
+    <link href="/2023/04/01/%E4%BE%9B%E5%BA%94%E9%93%BE%E7%AE%A1%E7%90%86SCM/"/>
+    <url>/2023/04/01/%E4%BE%9B%E5%BA%94%E9%93%BE%E7%AE%A1%E7%90%86SCM/</url>
+    
+    <content type="html"><![CDATA[<h2 id="基础知识点"><a href="#基础知识点" class="headerlink" title="基础知识点"></a>基础知识点</h2><ol><li>供应链管理（SCM）：目前企业信息化系统所使用的数据库管理系统的结构，大多数为<strong>关系结构</strong></li><li>供应链的特征：<br>①交叉性：节点企业是这个供应链的成员，同时也可以是另外一个供应链的成员。众多的供应链通过具有多重参与性的节点企业形成错综复杂的<strong>网状交叉结构</strong><br>②动态性：因为企业战略和适应市场需求变化的需要，节点企业需要<strong>动态地更新</strong>，供应链中各种信息流、资金流和物流信息都需要<strong>实时更新</strong><br>③存在核心企业：<strong>核心企业</strong>是供应链中各个企业信息、资金、物流运转的<strong>核心</strong><br>④复杂性：供应链中的结构比一般单个的企业内部的<strong>结构复杂</strong><br>⑤面向用户：行为都是基于<strong>市场需求</strong>而发生变化的，供应链中的信息流、资金流和物流等都要根据<strong>用户的需求</strong>而作变化，也是由<strong>用户需求</strong>来驱动的。</li></ol><h2 id="相关练习题"><a href="#相关练习题" class="headerlink" title="相关练习题"></a>相关练习题</h2><ol><li>某企业是某个供应链的成员，同时也是另外一个供应链的成员，众多的供应链通过具有多重参与性的节点企业形成错综复杂的结构，这体现了供应链的（）特征。<br>A.面向用户B.动态性C.存在核心企业<strong>D.交叉性</strong></li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>系统集成项目管理工程师</category>
+      
+      <category>信息化知识</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>软考</tag>
+      
+      <tag>信息化知识</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>客户关系管理CRM</title>
+    <link href="/2023/04/01/%E5%AE%A2%E6%88%B7%E5%85%B3%E7%B3%BB%E7%AE%A1%E7%90%86CRM/"/>
+    <url>/2023/04/01/%E5%AE%A2%E6%88%B7%E5%85%B3%E7%B3%BB%E7%AE%A1%E7%90%86CRM/</url>
+    
+    <content type="html"><![CDATA[<h2 id="基础知识点"><a href="#基础知识点" class="headerlink" title="基础知识点"></a>基础知识点</h2><ol><li><p>系统要素：<br>①不仅是以<strong>客户为中心</strong>的信息系统，而是一种市场管理策略<br>②注重客户满意度的同时，提升企业<strong>获得利润的能力</strong><br>③要求企业对业务功能重新设计，将业务重心转移到客户，对<strong>不同客户采取不同的策略</strong></p></li><li><p>客户数据：<br>①<strong>描述性</strong>：<strong>客户的基本信息</strong>；个人客户，一定要涵盖客户的姓名、年龄、ID和联系方式等；企业客户，一定要涵盖企业的名称、规模、联系人和法人代表等。</p><p>②<strong>促销性</strong>：体现企业曾经为客户提供的产品和服务的<strong>历史数据</strong>；用户产品使用情况<strong>调查的数据、促销活动记录数据、客户人员的建议数据和广告数据</strong>。<br>③<strong>交易性数据</strong>：反应客户对企业做出的<strong>回馈数据</strong>；历史<strong>购买记录数据、投诉数据、请求提供咨询及其他服务的相关数据、客户建议数据</strong></p></li><li><p>体系结构：数据源→ETL→营销数据存储→决策产生→信息渠道</p></li><li><p>CRM应用设计特点：<br>①<strong>可伸缩性</strong>：由于CRM技术目前尚不成熟，对于CRM应用的范围至今无清晰界定。这些不确定因素决定了在搭建CRM应用系统的时候，<strong>一定要为其留有足够的可扩展余地</strong>。<br>②<strong>可移植性</strong>：软件产品开发已实现了组件化和集成化，为了加快软件开发周期，我们需要将产品做成很多组件集成一块的形式，其中每一个组件还可以继续<strong>被复用和移植</strong>。</p></li><li><p>基本功能模块：<br>①自动化的销售<br>②自动化的市场营销<br>③自动化的客户服务</p></li><li><p>数据挖掘：<br>①对象：包括关系数据库、数据仓库、事务数据库以及一些新型的高级数据库<br>②任务：描述，分类和预测</p></li></ol><h2 id="相关练习题"><a href="#相关练习题" class="headerlink" title="相关练习题"></a>相关练习题</h2><ol><li>客户关系管理（CRM）系统是以客户中心设计的一套集成化信息管理系统，系统中记录的客户购买记录属于（）客户数据。<br><strong>A.交易性</strong>B.描述性C.促销性D.维护性</li><li>（）不属于客户关系管理（CRM）系统的基本功能。<br>A.自动化销售<strong>B.自动化项目管理</strong>C.自动化市场营销D.自动化客户服</li><li>（）属于客户关系管理（CRM）应用设计的特点<br>①可扩展性②可复用性③可度量性④可移植性<br><strong>A.①②④</strong>B.②③④C.①③④D.①②③</li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>系统集成项目管理工程师</category>
+      
+      <category>信息化知识</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>软考</tag>
+      
+      <tag>信息化知识</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>企业资源计划ERP</title>
+    <link href="/2023/04/01/%E4%BC%81%E4%B8%9A%E8%B5%84%E6%BA%90%E8%AE%A1%E5%88%92ERP/"/>
+    <url>/2023/04/01/%E4%BC%81%E4%B8%9A%E8%B5%84%E6%BA%90%E8%AE%A1%E5%88%92ERP/</url>
+    
+    <content type="html"><![CDATA[<h2 id="基础知识点"><a href="#基础知识点" class="headerlink" title="基础知识点"></a>基础知识点</h2><h4 id="企业资源规划（ERP）发展"><a href="#企业资源规划（ERP）发展" class="headerlink" title="企业资源规划（ERP）发展"></a>企业资源规划（ERP）发展</h4><ol><li>物料需求计划（MRP）：无生产能力控制</li><li>闭环MRP：增加了生产力与采购。闭环MRP能力计划通常是通过报表的形式向计划人员报告，但是尚<strong>不能进行能力负荷的自动平衡</strong>，工作由计划人员<strong>人工完成</strong>；CRM系统能与ERP系统在财务、制造、库存等环节进行连接，两者间会形成一定的<strong>闭环反馈结构</strong>。</li><li>制造资源计划MRPII：增加物流与资金流</li><li>企业资源计划（ERP）：<br>①ERP是统一的集成系统<br>②ERP是面向业务流程的系统<br>③ERP是模块化可配置的<br>④ERP是开放的系统</li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>系统集成项目管理工程师</category>
+      
+      <category>信息化知识</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>软考</tag>
+      
+      <tag>信息化知识</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>企业信息化</title>
+    <link href="/2023/04/01/%E4%BC%81%E4%B8%9A%E4%BF%A1%E6%81%AF%E5%8C%96/"/>
+    <url>/2023/04/01/%E4%BC%81%E4%B8%9A%E4%BF%A1%E6%81%AF%E5%8C%96/</url>
+    
+    <content type="html"><![CDATA[<h2 id="基础知识点"><a href="#基础知识点" class="headerlink" title="基础知识点"></a>基础知识点</h2><ol><li>企业信息化的结构：<br>①产品（服务层）<br>②作业层<br>③管理层<br>④决策层</li><li>推进企业信息化发展遵循原则：<br>①效益原则—追求利润最大化<br>②“一把手”原则—企业高层领导的参与<br>③中长期与短期建设相结合原则—企业要近期、中远期目标相结合<br>④规范化和标准化原则—信息流程规范化，数据标准化<br>⑤以人为本的原则—<strong>最终取决于人的素质</strong></li><li>推进信息化与工业化深度融合：<br>①加快推动新一代信息技术与制造技术融合发展，把<strong>智能制造</strong>作为两化深度融合的主攻方向；<br>②着力发展智能装备和智能产品，推进生产过程智能化，培育新型生产方式，全面提升企业研发、生产、管理和服务的智能化水平。<br>③推进<strong>制造过程智能化</strong>：在重点领域试点建设<strong>智能工厂&#x2F;数字化车间，加快人机智能交互、工业机器人、智能物流管理、增材制造</strong>等技术和装备在生产过程中的应用，促进制造工艺的仿真优化、数字化控制、状态信息实时监测和自适应控制。<br>④实施<strong>两化深度融合</strong>是企业落实《中国制造2025》战略规划的重要途径。</li><li>构建下一代国家综合信息基础设施：<br>①加快宽带网络优化升级和区域协调发展<br>②促进下一代互联网规模商用和前沿布局<br>③建设安全可靠的信息应用基础设施<br>④加快推进三网融合<br>⑤优化国际通信网络布置</li></ol><h2 id="相关练习题"><a href="#相关练习题" class="headerlink" title="相关练习题"></a>相关练习题</h2><ol><li>企业信息化是国民经济信息化的基础，企业信息化的结构不包括（）。<br>A.产品 (服务层)B.作业层C.管理层<strong>D.检测层</strong></li><li>企业在信息化过程中，要形成高水平、稳定的信息化人才队伍，建立和完善信息化人才激励机制。这一做法符合信息化发展过程中的（）。<br>A.效益原则<br>B.“一把手”原则<br>C.中长期与短期建设相结合的原则<br><strong>D.以人为本的原则</strong></li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>系统集成项目管理工程师</category>
+      
+      <category>信息化知识</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>软考</tag>
+      
+      <tag>信息化知识</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>电子政务</title>
+    <link href="/2023/04/01/%E7%94%B5%E5%AD%90%E6%94%BF%E5%8A%A1/"/>
+    <url>/2023/04/01/%E7%94%B5%E5%AD%90%E6%94%BF%E5%8A%A1/</url>
+    
+    <content type="html"><![CDATA[<h2 id="基础知识点"><a href="#基础知识点" class="headerlink" title="基础知识点"></a>基础知识点</h2><ol><li>电子政务概念：是指政府机构在其管理和服务职能中运用现代信息技术，实现政府组织结构和工作流程的重组优化，超越时间、空间和部门分隔的制约，建成一个精简、高效、廉洁、公平的政府运作模式。</li><li>电子政务组成：政府部门<strong>内部</strong>利用先进的网络信息技术实现办公自动化、管理信息化、决策科学化；政府部门与社会各界利用网络信息平台充分进行信息共享与服务、加强群众监督、提高办事效率及促进政务公开。</li><li>电子政务分类：<br>①<strong>政府间的电子政务（G2G）</strong>—政府间电子公文流转、电子司法档案、电子财政管理及电子统计<br>②<strong>政府对企业的电子政务（G2B）</strong>—<strong>最常用</strong>，网上税务申报、电子证照办理，以及信息咨询服务<br>③<strong>政府对公民的电子政务（G2C）</strong>—电子医疗服务、社会保险服务、网上机动车违章查询、公众电子税务和电子证件服务<br>④<strong>政府对公务员的电子政务（G2E）</strong>—电子公文流转、电子办公、电子培训</li><li>电子政务发展：电子政务鼓励向<strong>云计算</strong>模式迁移，以效果为导向，推行“<strong>云计算服务优先</strong>模式。</li></ol><h2 id="相关练习题"><a href="#相关练习题" class="headerlink" title="相关练习题"></a>相关练习题</h2><ol><li>电子政务的内容非常管饭，我们常见的中国政府采购网属于（）<br>A.G2GB.G2CC.G2E<strong>D.G2B</strong></li><li>我国陆续建成了“两网、一站、四库、十二金”工程为代表的国家级信息系统，其中的“一站”属于（）电子政务模式。<br>A.G2G<strong>B.G2C</strong>C.G2ED.B2C</li><li>电子政务类型中，属于政府对公众的是（）。<br>A.G2BB.G2EC.G2G<strong>D.G2C</strong></li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>系统集成项目管理工程师</category>
+      
+      <category>信息化知识</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>软考</tag>
+      
+      <tag>信息化知识</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>信息化发展原则和方向</title>
+    <link href="/2023/04/01/%E4%BF%A1%E6%81%AF%E5%8C%96%E5%8F%91%E5%B1%95%E5%8E%9F%E5%88%99%E5%92%8C%E6%96%B9%E5%90%91/"/>
+    <url>/2023/04/01/%E4%BF%A1%E6%81%AF%E5%8C%96%E5%8F%91%E5%B1%95%E5%8E%9F%E5%88%99%E5%92%8C%E6%96%B9%E5%90%91/</url>
+    
+    <content type="html"><![CDATA[<h2 id="基础知识点"><a href="#基础知识点" class="headerlink" title="基础知识点"></a>基础知识点</h2><ol><li>信息化现状：我国的信息化建设处于<strong>深入发展</strong>阶段</li><li>信息化基本原则：<br>①统筹发展，有序推进<br>②需求牵引，市场导向<br>③完善机制，创新驱动<br>④加强管理，保障安全</li><li>新一代信息技术产业创新重点：培育<strong>人工智能、移动智能终端、第五代移动通信（5G）、现金传感器</strong></li><li>推进制造过程<strong>智能化</strong>：在重点领域试点建设智能工厂&#x2F;数字化车间，加快<strong>人机智能交互、工业机器人、智能物流管理、增材制造</strong>等技术和装备在生产过程中的应用，促进制造工艺的仿真优化，数字化控制、状态信息实时监测和自适应控制。加快产品全生命周期管理，客户关系管理、供应链管理系统的推广应用。</li></ol><h2 id="相关练习题"><a href="#相关练习题" class="headerlink" title="相关练习题"></a>相关练习题</h2><ol><li>工业和信息化部会同国务院有关部门编制的《信息化发展规划》提出了我国未来信息化发展的指导思想和基本原则。其中，不包括（）原则。<br>A.统筹发展，有序推进<br><strong>B.需求牵引，政府主导</strong><br>C.完善机制，创新驱动<br>D.加强管理，保障安全</li><li>在重点领域试点建设智能工厂、数字化车间、加快人工智能交互、工业机器人、智能物能管理等技术在生产过程中的应用。属于制造工程（）。<br>A.信息化<strong>B.智能化</strong>C.标准化D.工业化</li><li>构建国家综合信息基础设施的内容不包含（）。<br>A.加快宽带网络优化开级和区域协调发展<br><strong>B.大力提高教育信息化水平</strong><br>C.建设安全可靠的信息应用基础设施<br>D.加快推进三网融合</li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>系统集成项目管理工程师</category>
+      
+      <category>信息化知识</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>软考</tag>
+      
+      <tag>信息化知识</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>信息技术发展趋势</title>
+    <link href="/2023/04/01/%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF%E5%8F%91%E5%B1%95%E8%B6%8B%E5%8A%BF/"/>
+    <url>/2023/04/01/%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF%E5%8F%91%E5%B1%95%E8%B6%8B%E5%8A%BF/</url>
+    
+    <content type="html"><![CDATA[<h2 id="基础知识点"><a href="#基础知识点" class="headerlink" title="基础知识点"></a>基础知识点</h2><ol><li>信息技术发展趋势：<br>①高速度大容量<br>②集成化和平台化—使得信息消费更注重良好的用户体验，而不必关心信息技术<br>③智能化—以“<strong>智能制造</strong>”为标签的各种软硬件应用<br>④虚拟计算：是一种资源管理技术，是将计算机的各种实体资源，如服务器、网络、内存及存储等予以抽象、转换后呈现出来的；解决高性能的物理硬件产能过剩和老的旧的硬件产能过低的重组重用，透明化底层物理硬件，从而最大化地利用物理硬件。<br>⑤通信技术<br>⑥遥感和传感技术：是物联网应用的重要基础，是<strong>工业和信息化深度融合的关键技术之一</strong>；射频识别（RFID）是一种<strong>无线通信技术</strong>，可以通过<strong>无线电讯号</strong>识别特定目标并读写相关数据，而无需识别系统与特定目标之间建立机械或光学接触。<br>⑦移动智能终端<br>⑧以人为本<br>⑨信息安全<br>⑩两化融合</li><li>两化融合的含义：<br>①信息化与工业化发展战略的融合<br>②信息资源与材料、能源等工业资源的融合<br>③虚拟经济与工业实体经济融合<br>④信息技术与工业技术、IT设备与工业装备的融合</li><li>两化融合的关系：<br>①信息化进程和工业化进程<strong>不再相互独立进行，不再是单方的带动和促进关系</strong>，而是两者在技术、产品、管理等各个层面相互交融，彼此不可分割。<br>②我们不能等工业化完成后才开始信息化或停下工业化只搞信息化，而是应该抓住网络革命的机遇，<strong>通过信息化促进工业化，通过工业化打基础，走信息化和工业化并举、融合、互动、互相促进、共同发展之路</strong>。</li><li>两化融合的战略要点：<br>①<strong>以信息化带动工业化</strong><br>②<strong>信息化与企业业务全过程的融合、渗透</strong><br>③信息产业发展与企业信息化良性互动<br>④充分发挥政府的引导作用<br>⑤<strong>高度重视信息安全</strong><br>⑥企业信息化与企业的改组改造和形成现代企业制度有机结合<br>⑦“因地制宜”推进企业信息化</li></ol><h2 id="相关练习题"><a href="#相关练习题" class="headerlink" title="相关练习题"></a>相关练习题</h2><ol><li>关于我国工业化和信息化的深度融合，不正确的（）。<br>A.工业化是信息的基础,两者并举互动,共同发展<br>B.工业化为信息化的发展带来旺盛的市场需求<br><strong>C.信息化是当务之急,可以减缓工业化,集中实现信息化</strong><br>D.要抓住网络革命的机遇,通过信息化促进工业化</li><li>在实际的生产环境，（）能便底层物理硬件透明化，实现高性能物理硬件和老旧物理硬件的重组使用。<br>A.通用技术B.智能化技术C遥感和传感技术<strong>D.虚拟化技术</strong></li><li>关于我国企业信息化发展战略要点的描述，不正确的是（）。<br><strong>A.注重以工业化带动信息化</strong><br>B.充分发挥政府的引导作用<br>C.高度重视信息安全<br>D.“因地制宜”推进企业信息化</li><li>不属于我国企业信息化发展战略要点的是（）。<br>A.高度重视信息安全<br>B.发展政府引导作用<br><strong>C.以工业化带动信息化</strong><br>D.因地制宜推动企业信息化</li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>系统集成项目管理工程师</category>
+      
+      <category>信息化知识</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>软考</tag>
+      
+      <tag>信息化知识</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>信息化6要素</title>
+    <link href="/2023/03/31/%E4%BF%A1%E6%81%AF%E5%8C%966%E8%A6%81%E7%B4%A0/"/>
+    <url>/2023/03/31/%E4%BF%A1%E6%81%AF%E5%8C%966%E8%A6%81%E7%B4%A0/</url>
+    
+    <content type="html"><![CDATA[<h2 id="基础知识点"><a href="#基础知识点" class="headerlink" title="基础知识点"></a>基础知识点</h2><ol><li>国家信息化体系要素：<br>①信息技术<strong>应</strong>用—龙<strong>头</strong>（主阵地）<br>②信息<strong>资</strong>源—核<strong>心</strong>任务<br>③信息<strong>网</strong>络—应用<strong>基</strong>础<br>④信息<strong>技</strong>术和产业—建设<strong>基</strong>础<br>⑤信息化<strong>人</strong>才—成功之<strong>本</strong><br>⑥信息化<strong>法</strong>规—<strong>保</strong>障<br><strong>记忆小技巧：鹰头、鸡基、人本、法保、织-炽热的心、网基</strong><br>                 <strong>鹰上(应用) 、下鸡 (技术)、左人 (人才)、右龟 (规范）</strong></li><li>信息资源：<br>①能够重复使用，其价值在使用中得到体现；<br>②信息资源的利用具有很强的目标导向，不同的信息在不同的用户中体现不同的价值；<br>③具有广泛性。人们对其检索和利用，不受时间、空间、语言、地域和行业的制约；<br>④是社会公共财富，也是商品，可以被交易或交换；<br>⑤具有流动性，通过信息网可以快速传输；<br>⑥多态性，可以以数字、文字、图像、声音、视频等多种形态存在；<br>⑦融合性，整合不同的信息资源并分析、挖掘，可以得到新的知识，取得比分散信息资源更高的价值</li></ol><h2 id="相关练习题"><a href="#相关练习题" class="headerlink" title="相关练习题"></a>相关练习题</h2><ol><li><p>国家信息化体系要素中，（）是国家信息化的主阵地，集中体现了国家信息化建设的需求和效益。</p><p><strong>A.信息技术应用</strong>B.信息网络C.信息资源D.信息化人才</p></li><li><p>开展区域链技术的商业试探性应用，属于国家信息化体系中的（）要素。</p><p><strong>A.信息技术应用</strong>B.信息网络C.信息资源D.信息技术和产业</p></li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>系统集成项目管理工程师</category>
+      
+      <category>信息化知识</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>软考</tag>
+      
+      <tag>信息化知识</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>信息与信息系统</title>
+    <link href="/2023/03/31/%E4%BF%A1%E6%81%AF%E4%B8%8E%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F/"/>
+    <url>/2023/03/31/%E4%BF%A1%E6%81%AF%E4%B8%8E%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F/</url>
+    
+    <content type="html"><![CDATA[<h2 id="基础知识点"><a href="#基础知识点" class="headerlink" title="基础知识点"></a>基础知识点</h2><ol><li><p>信息技术：为解决信息的采集、加工、存储、传输、处理、计算、转换、表现等问题而不断繁荣发展</p></li><li><p>信息技术的核心：<strong>传输技术</strong>（通常指通信、网络等）</p></li><li><p>信息的质量属性特点：客观性、普遍性</p></li><li><p>信息的质量属性：<br>①精确性：对事物状态描述的精准程度<br>②完整性：对事物状态描述的全面程度，完整信息应包括所有重要事实<br>③可靠性：指信息的来源、采集方法、传输过程是<strong>可以信任</strong>的，符合预期<br>④及时性：指获得信息的时刻与事件发生时刻的<strong>间隔长短</strong><br>⑤经济性：指信息获取、传输带来的<strong>成本</strong>在可以接受的范围之内<br>⑥可验证性：指信息的主要质量属性可以<strong>被证实或者证伪</strong>的程度<br>⑦安全性：信息可以被非授权访问的可能性，可能性越低，安全性越高</p></li><li><p>信息的传输模型：<br>①信源：产生信息的实体，信息产生后，由这个实体向外传播<br>②信宿：信息的归宿或接受者<br>③信道：传送信息的通道，如<strong>TCP&#x2F;IP网络</strong><br>④编码器：如<strong>量化器、压缩编码器、调解器</strong>等<br>⑤译码器：包括<strong>调解器、译码器、数模转换器</strong>等<br>⑥噪声（干扰）：包括信道中的噪声及分散在通信系统中的其他噪声的集中表示。无处不在，而为了抵抗噪声带来的失真，使用了<strong>编码、译码</strong>手段。</p></li><li><p>信息系统特点：</p><p>①目的性：定义一个系统、组成一个系统或者抽象出一个系统，都有<strong>明确的目标或者目的</strong><br>②可嵌套性：系统可以包括若干子系统，系统之间也能够<strong>耦合</strong>成一个更大的系统<br>③稳定性：受规则的约束，系统的内部结构和秩序应是<strong>可以预见的</strong><br>④开放性：指系统的<strong>可访问性</strong>，这个特性决定了系统<strong>可以被外部环境识别</strong>，外部环境或者其他系统可以按照预定的方法，使用系统的功能或者影响系统的行为。<br>⑤脆弱性：与系统的稳定性相对应，即系统可能存在着<strong>丧失结构、功能、秩序的特性</strong>，这个特性往往是隐藏不易被外界感知的。<br>⑥健壮性：当系统面临干扰、输入错误、入侵等因素时，系统可能会出现<strong>非预期的状态而丧失原有功能、出现错误甚至表现出破坏功能</strong></p></li><li><p>信息系统组成：</p><p>①硬件：由执行输入、处理和输出行为的计算机设备组成。输入设备包括键盘、自动扫描设备、语音识别设备等。<br>②软件：由管理计算机运行的程序构成。包括设备驱动程序、系统软件、数据库管理系统、中间件、应用软件等。<br>③数据库：是经过机构话、规范化组织后的事实和信息的集合。是信息系统中最有价值和最重要的部分之一。</p></li><li><p>软件的生命周期：<br>阶段：可行性分析与项目开发计划-需求分析-概要设计-详细设计-编码-测试-维护<br>简化：<br>①立项：系统规划<br>②开发：系统分析、系统设计、系统实施、系统验收<br>③运维<br>④消亡</p></li><li><p>信息化层次：<br>①产品信息化：智能电视、智能灯具<br>②企业信息化：生产制造系统、ERP、CRM、SCM<br>③产业信息化：农业、工业、交通运输业、生产制造业、服务业<br>④国民经济信息化：金融、贸易、投资、计划、通关、营销<br>⑤社会生活信息化：<strong>智慧城市、互联网金融</strong></p></li><li><p>信息化：<br>①主体：<strong>全体社会成员，包括政府、企业、事业、团队和个人</strong><br>②时域：是一个长期的过程<br>③空域：是政治、经济、文化、军事和社会的一切领域<br>④手段：是基于现代信息技术的先进社会生产工具<br>⑤途径：是创建信息时代的社会生产力，推动社会生产关系及社会上层建筑的改革它的目标是使国家的综合实力、社会的文明素质和<strong>人民的生活质量全面提升</strong></p></li></ol><h2 id="相关练习题"><a href="#相关练习题" class="headerlink" title="相关练习题"></a>相关练习题</h2><ol><li><p>基于TCP&#x2F;IP协议的网络属于信息传输模型中的（）。</p><p>A.信源<strong>B.信道</strong>C.信宿D.编解码</p></li><li><p>关于“信息化”的描述，不正确的是 （）。</p><p>A.信息化的手段是基于现代信息技术的先进社会生产工具<br>B.信息化是综合利用各种信息技术改造，支撑人类各项活动的过程<br>C.互联网金融是社会生活信息化的一种体现和重要发展方向<br><strong>D.信息化的主体是信息技术领域的从业者，包括开发和测试人员</strong></p></li><li><p>在信息传输模型中，（）属于译码器。<br>A.压缩编码器B.量化器<strong>C.解调器</strong>D.TCP&#x2F;IP网络</p></li><li><p>信息系统的（）决定了系统可以被外部环境识别，外部环境或者其他系统可以按照预定的方法便用系统的功能或者影响系统的行为。<br>A.可嵌套性B.稳定性<strong>C.开放性</strong>D.健壮性</p></li><li><p>信息系统的（）是指系统可能存在着丧失结构、功能、秩序的特性。<br>A.可用性B.开放性<strong>C.脆弱性</strong>D.稳定性</p></li><li><p>信息系统具有的能够抵御出现非预期状态的特性称为（）<br>A.稳定性<strong>B.健壮性</strong>C.安全性D.可用性</p></li><li><p>关于信息化基本内涵的描述，不正确的是（）</p><p><strong>A.信息化的主体是信息化主管部门</strong><br>B.信息化的时域是一个长期的过程<br>C.信息化的途径是创建信息时代的社会生产力，推动社会生产关系及社会上层建筑的改革<br>D.信息化的目标是使国家的综合实力、社会的文明素质和人们的生活质量全面提升</p></li><li><p>信息化从“小”到“大”分为:产品信息化、企业信息化、（）、国民经济信息化和社会生活信息化。<br>A.团体信息化<strong>B.产业信息化</strong>C.教育信息化D.工业信息化</p></li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>系统集成项目管理工程师</category>
+      
+      <category>信息化知识</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>软考</tag>
       
       <tag>信息化知识</tag>
       
@@ -64,35 +354,6 @@
   
   
   <entry>
-    <title>信息化知识3</title>
-    <link href="/2023/03/30/%E4%BF%A1%E6%81%AF%E5%8C%96%E7%9F%A5%E8%AF%863/"/>
-    <url>/2023/03/30/%E4%BF%A1%E6%81%AF%E5%8C%96%E7%9F%A5%E8%AF%863/</url>
-    
-    <content type="html"><![CDATA[<ol><li><p>供应链的结构：供应链是一个范围很大的企业结构模式，包含了所有参与的节点企业，从原材料开始，经过各个环节，直到最终用户。</p></li><li><p>供应链的特征：供应链是一个网链结构，由围绕在核心企业周围的以各种关系联系起来的供应商和用户组成。每个企业都是一个节点，节点企业之间是一种需求与供应关系。供应链的特征主要有以下5点：交叉性、动态性、存在核心企业、复杂性、面向用户。</p></li><li><p>供应链管理的概念：以客户为中心、集成化管理、扩展性管理、合作管理、多层次管理。</p></li><li><p>供应链管理的分类：可以从供应链管理的对象、网状结构和产品类别三个角度对供应链管理进行分类。</p><figure class="highlight excel"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><code class="hljs excel">（<span class="hljs-number">1</span>）根据供应链管理的对象对供应链管理进行分类：<br>    ☻ 企业供应链：是就单个公司所提出的含有多个产品的供应链管理。这里的单个公司多事供应链中的核心企业，在整个供应链起关键作用，处于主导地位。<br>    ☻ 产品供应链：是与某一特定产品或项目相关的供应链。基于产品的供应链管理，是由特定产品的客户需求所垃动的、对整个产品供应链运作的全过程的系统管理。<br>    ☻ 基于供应链契约的供应链：供应链契约关系主要是针对这些职能成员间的合作进行管理，供应链上的成员通过建立契约关系来协调买方和卖方的利益。<br>（<span class="hljs-number">2</span>）根据网状结构特点对供应链管理进行分类：<br>    ☻ 发散型的供应链网（V型供应链）：供应链网状结构中最基础的结构。例如石油、化工、造纸和纺织企业等。生产中间产品的企业的客户往往要多于供应商，呈发散状。为了保证满足客户服务需求，企业需要库存作为缓冲。这种供应链常常出现在本地业务而不是全球战略中。<br>    ☻ 会聚型的供应链网（A型供应链）：当核心企业为供应链网络上的终端客户服务时，其业务本质是由订单核客户驱动的。为了满足少数的客户需求和客户订单，需要从大量的供应商手中采购大量的物料，例如航空、汽车和重工业企业，这些企业拥有由所预测的需求量决定的公用件、标准件仓库。<br>    ☻ 结余上述两种模式之间的供应链网（<span class="hljs-built_in">T</span>型供应链）：这种供应链中的企业根据已经确定的订单确定通用件，在接近最终客户的行业中普遍存在，在那些为总公司提供零部件的公司也同样存在，<span class="hljs-built_in">T</span>型供应链在供应链管理中是最为复杂的，这种网络需要企业投入大量的资金并尽可能限制提前期以使供应链稳定有效。<br>（<span class="hljs-number">3</span>）根据产品类别对供应链管理进行分类：<br>    ☻ 功能型供应链：生命周期较长、需求较稳定、可预测，由于功能性产品市场需求稳定，所以其供求平衡比较容易达到，其重点在于降低生产运输库存等方面的费用，以最低的成本将原材料转化为成品。<br>    ☻ 创新型供应链：生命周期较短、需求不稳定、不可预测，由于创新型供应链的产品很大程度上取决于对市场信息的把握，因此这类供应链应该多考虑供应链的响应速度和柔性，来适应多变的市场需求，其次在考虑其实施中发生的费用问题。<br></code></pre></td></tr></table></figure></li><li><p>供应链系统设计的原则：</p><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs">（1）自顶向下和自底向上相结合的设计原则<br>（2）简洁性原则<br>（3）取长补短原则<br>（4）动态性原则<br>（5）合作性原则<br>（6）创新性原则<br>（7）战略性原则<br></code></pre></td></tr></table></figure></li><li><p>供应链系统设计的设计策略和设计步骤：</p><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><code class="hljs">设计策略：供应链的设计要以产品为中心，产品生命周期、需求预测、产品多样性、提前期和服务的市场标准等都是影响供应链设计的重要因素。<br><br>设计步骤：<br>①分析市场需求和竞争环境，目的在于使供应链更有效。这一步骤的输出是每一产品的按重要性排列的市场特征和对于市场的不确定性的分析和评价。<br>②总结分析企业现状。<br>③针对存在的问题提出供应链设计项目，论证其必要性和可行性。<br>④根据产品的供应链设计策略提出供应链设计的目标。<br>⑤分析供应链的构成。<br>⑥分析评价供应链设计的技术可行性。<br>⑦设计供应链。<br>⑧检验供应链。如果检验发现问题，则从第④步开始重新实施第④~⑧步，直至确认无误。<br></code></pre></td></tr></table></figure></li><li><p>供应链设计中需要注意的要点：</p><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs">①注意供应链的整体性<br>②注意供应链具有的相关性<br>③注意供应链的结构性和有序性<br>④注意供应链的动态性<br>⑤注意供应链具有一定的环境适应性<br></code></pre></td></tr></table></figure></li><li><p>敏捷供应链管理概念：在传统的竞争中，企业的主要优势往往是低成本、高质量的产品和服务。进入 21世纪后，竞争越来越激烈，企业的低成本、高质量产品或服务的竞争优势不再明显，企业对于竞争优势的关注更多地集中在企业的敏捷性上，也就是如何动态地、可重构地、快速地响应市场变化和需求变化，以及快速地生产出满足市场需求的产品，于是产生了敏捷供应链的概念。</p></li><li><p>敏捷供应链区别于一般供应链系统的特点如下：</p><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs">①支持供应链中跨企业的生产方式的快速重组，有助于促进企业间的合作和合作的优化，从而实现对市场变化的快速响应，对市场需求的快速理解，对新产品或服务的快速研发、生产和供应。<br>②不仅支持企业内信息系统的调整、重构和信息共享，而且支持供应链中跨企业信息系统的集成、调整、重构和信息共享。<br>③敏捷供应链中冬个企业能根据敏捷化要求方便地进行组织、管理的调整和企业生产模式的转变。<br></code></pre></td></tr></table></figure></li></ol><p>​</p>]]></content>
-    
-    
-    <categories>
-      
-      <category>系统集成项目管理工程师</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>软考</tag>
-      
-      <tag>中级</tag>
-      
-      <tag>信息化知识</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>0329每日一练错题记录</title>
     <link href="/2023/03/29/0329%E6%AF%8F%E6%97%A5%E4%B8%80%E7%BB%83%E9%94%99%E9%A2%98%E8%AE%B0%E5%BD%95/"/>
     <url>/2023/03/29/0329%E6%AF%8F%E6%97%A5%E4%B8%80%E7%BB%83%E9%94%99%E9%A2%98%E8%AE%B0%E5%BD%95/</url>
@@ -116,64 +377,6 @@
       <tag>错题</tag>
       
       <tag>每日一练</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>信息化知识2</title>
-    <link href="/2023/03/29/%E4%BF%A1%E6%81%AF%E5%8C%96%E7%9F%A5%E8%AF%862/"/>
-    <url>/2023/03/29/%E4%BF%A1%E6%81%AF%E5%8C%96%E7%9F%A5%E8%AF%862/</url>
-    
-    <content type="html"><![CDATA[<ol><li><p><strong>信息网络</strong>是<strong>信息资源开发利用和信息技术应用的基础</strong>，是<strong>信息传输、交换和共享的必要手段</strong>。</p></li><li><p>信息网络分为<strong>电信网、广播电视网、计算机网</strong>。</p></li><li><p><strong>信息化人才队伍建设</strong>的<strong>总体思路</strong>是：<strong>以能力建设为核心，以高层次人才、复合型人才的培养、选拔和引进为重点，调整人才结构，全面提高人才综合素质</strong>。</p></li><li><p><strong>信息化政策法规和标准规范</strong>用于规范和协调信息化体系各要素之间关系，<strong>是国家信息化快速、持续、有序、健康发展的根本保障</strong>。</p></li><li><p>我国在<strong>“十三五”规划纲要</strong>中，将培育<strong>人工智能、移动智能终端、第五代移动通信(5G)、先进传感器</strong>等作为新一代信息技术产业创新重点发展，拓展新兴产业发展空间。</p></li><li><p>信息技术发展趋势和新技术应用主要包括以下 10 个方面：</p><figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs apache"><span class="hljs-attribute">1</span>、高速度大容量<br><span class="hljs-attribute">2</span>、集成化和平台化<br><span class="hljs-attribute">3</span>、智能化<br><span class="hljs-attribute">4</span>、虚拟计算（服务器虚拟化、内存虚拟化、存储虚拟化、网络虚拟化、应用虚拟化及桌面虚拟化）<br><span class="hljs-attribute">5</span>、通信技术（<span class="hljs-number">4</span>G、<span class="hljs-number">5</span>G）<br><span class="hljs-attribute">6</span>、遥感和传感技术（传感器、RFID...）<br><span class="hljs-attribute">7</span>、移动智能终端<br><span class="hljs-attribute">8</span>、以人为本<br><span class="hljs-attribute">9</span>、信息安全（国防安全、正式安全、经济安全、社会安全，<span class="hljs-number">2014</span>年<span class="hljs-number">2</span>月成立中央网络安全和信息化领导小组）<br><span class="hljs-attribute">10</span>、两化融合（工业化与信息化）<br></code></pre></td></tr></table></figure></li><li><p>根据《2006-2020年国家信息化发展战略》，2006~2020年期间，我国信息化发展的战略目标是：综合信息基础设施基本普及，信息技术自主创新能力显著增强，信息产业结构全面优化，国家信息安全保障水平大幅提高，国民经济和社会信息化取得明显成效，新型工业化发展模式初步确立，国家信息化发展的制度环境和政策体系基本完善，国民信息技术应用能力显著提高，为迈向信息社会奠定坚实基础。</p></li><li><p>具体目标是：（1）促进经济增长方式的根本转变。（2）实现信息技术自主创新、信息产业发展的跨越。（3）提升网络普及水平、信息资源开发利用水平和信息安全保障水平。（4）增强政府公共服务能力、社会主义先进文化传播能力、中国特色的军事变革能力和国民信息技术应用能力。</p></li><li><p>我国信息化发展的指导思想是：<strong>以邓小平理论、“三个代表”重要思想和科学发展观为指导，把加快信息化建设作为促进发展方式转变的重要途径</strong>，把扩大信息技术应用作为构建现代产业体系的重大举措，把提高信息服务能力作为保障和改善民生的有力支撑。加强统筹规划，坚持科学发展，以企业为主体，以市场为导向，积极推进下一代信息基础设施建设，推动信息化与工业化深度融合，着力突破技术和产业瓶颈，切实增强信息安全保障能力，大幅提升信息化水平，为促进经济社会持续发展作出贡献。</p></li><li><p>我国信息化发展的基本原则：</p><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs">（1）统筹发展，有序推进。<br>（2）需求牵引，市场导向。<br>（3）完善机制，创新驱动。<br>（4）加强管理，保障安全。<br></code></pre></td></tr></table></figure></li><li><p>我国信息化发展的主要任务和发展重点：</p><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><code class="hljs">（1）促进工业领域信息化深度应用<br>（2）加快推进服务业信息化<br>（3）积极提高中小企业信息化应用水平<br>（4）协力推进农业农村信息化<br>（5）全面深化电子政务应用<br>（6）稳步提高社会事业信息化水平<br>（7）统筹城镇化与信息化互动发展<br>（8）加强信息资源开发利用<br>（9）构建下一代国家综合信息基础设施<br>（10）促进重要领域基础设施智能化改造升级<br>（11）着力提高国民信息能力<br>（12）加强网络与信息安全保障体系建设<br></code></pre></td></tr></table></figure></li><li><p>电子政务建设的指导思想：以邓小平理论和“二个代表”重要思想为指导,深入贯彻落实科学发展观，紧紧围绕全面建设小康社会的总目标，以电子政务科学发展为主题，以深化应用和注重成效为主线，转变电子政务发展方式，充分发挥电子政务应用成效，服务经济结构战略性调整，服务保障和改善民生，服务加强和创新社会管理促进服务型政府、责任政府、法治政府和廉洁政府建设，走一条立足国情、讲求实效面向未来的电子政务发展道路。</p></li><li><p>电子政务建设的发展方针：</p><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs">（1）必须坚持将科学发展观贯穿电子政务发展全过程。<br>（2）必须坚持把以人为本和构建和谐社会作为电子政务发展的出发点和落脚点。<br>（3）必须坚持把深化应用和突出成效作为电子政务发展的根本要求。<br>（4）必须坚持创新发展和加强管理的有机统一。<br></code></pre></td></tr></table></figure></li><li><p>电子政务建设的发展方向和应用重点：</p><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs">（1）加快推动重要政务应用发展。<br>（2）加强保障和改善民生应用。<br>（3）加强创新社会管理应用。<br>（4）强化政务信息资源开发利用。<br>（5）建设完善电子政务公共平台。<br>（6）提高政府信息系统的信息安全保障能力。<br></code></pre></td></tr></table></figure></li><li><p>ERP系统（企业资源计划系统）特点：</p><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs">（1）ERP是统一的集成系统<br>（2）ERP是面向业务流程的系统<br>（3）ERP是模块化可配置的<br>（4）ERP是开放的系统<br></code></pre></td></tr></table></figure></li><li><p>ERP系统（企业资源计划系统）的功能：财会管理、生产控制管理、物流管理、人力资源管理。</p></li><li><p>CRM系统（客户关系管理系统）的功能：一个集成化的信息管理系统，它存储了企业现有和潜在客户的信息，并且对这些信息进行自动的处理从而产生更人性化的市场管理策略。有一个统一的以客户为中心的数据库，具有整合各种客户联系渠道的能力，能够提供销售、客户服务和营销三个业务的自动化工具，具备从大量数据中提取有用信息的能力。</p></li><li><p>CRM系统设计特点：可伸缩性、 可移植性。</p></li></ol>]]></content>
-    
-    
-    <categories>
-      
-      <category>系统集成项目管理工程师</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>软考</tag>
-      
-      <tag>中级</tag>
-      
-      <tag>信息化知识</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>信息化知识1</title>
-    <link href="/2023/03/27/%E4%BF%A1%E6%81%AF%E5%8C%96%E7%9F%A5%E8%AF%861/"/>
-    <url>/2023/03/27/%E4%BF%A1%E6%81%AF%E5%8C%96%E7%9F%A5%E8%AF%861/</url>
-    
-    <content type="html"><![CDATA[<ol><li><p>信息技术的“融合”主要表现为：<strong>“信息技术和工业制造深度融合”、“人和机器的融合”、“信息资源和材料资源的融合”</strong>。</p></li><li><p>信息产业已经成为<strong>影响国家核心竞争力</strong>的战略制高点。</p></li><li><p>信息传输模型：<strong>信源—编码—信道（噪声）—解码—信宿</strong>。</p></li><li><p><strong>TCP&#x2F;IP属于信道</strong>。</p></li><li><p>编码器：<strong>量化器、压缩编码器、调制器</strong>等，是信源输出的信号转换成适用于信道传送的信号。</p></li><li><p>译码器：<strong>调解器、译码器、数模转换器</strong>等。</p></li><li><p>信息的质量属性：<strong>精确性、完整性、可靠性、及时性、经济性（指信息获取、传输带来的成本在可以接受的范围之内）、可验证性、安全性</strong>。</p></li><li><p>系统的特点：<strong>目的性、可嵌套性、稳定性、开放性、脆弱性、健壮性</strong>。</p></li><li><p>信息系统<strong>可以是手工的</strong>，也可以是计算机化的；信息系统的组成部件包括<strong>硬件、软件、数据库、网络、存储设备、感知设备、外设、人员以及把数据处理成信息的规程</strong>等。</p></li><li><p><strong>数据库是信息系统中最有价值和最重要的部分之一</strong>。</p></li><li><p>网络中的链路层（信息用比特表达）和物理层（信息以电气状态存在）又称为通信子系统，连接信息系统内部主要部件的网络称为内部网（Intranet），连接不同信息系统的网络称为网间网（internet）。</p></li><li><p><strong>系统的开放性特点要求信息系统互联要遵从一致的协议、统一的命名规则和地址空间</strong>，而互联网（Internet）就是目前连接<strong>全球绝大数商用信息系统的网间网</strong>，遵从的网络协议是TCP&#x2F;IP。</p></li><li><p><strong>人是信息系统中最重要的因素</strong>，信息系统人员中包括所有<strong>管理、运行、编写和维护系统</strong>的人。</p></li><li><p>规程包括<strong>战略、政策、方法、制度和实用信息系统</strong>的规则。</p></li><li><p>信息系统从用途类型划分一般包括<strong>电子商务系统、事务处理系统、管理信息系统、生产制造系统、电子政务系统、决策支持系统</strong>等。</p></li><li><p>软件的生命周期通常包括：<strong>可行性分析与项目开发计划、需求分析、概要设计、详细设计、编码、测试、维护等阶段</strong>。</p></li><li><p>信息系统的生命周期简化为：<strong>系统规划（可行性分析与项目开发计划）、系统分析（需求分析）、系统设计（概要设计、详细设计）、系统实施（编码、测试）、运行维护</strong>等阶段。</p></li><li><p>信息系统的生命周期还可以简化为：<strong>立项（系统规划）、开发（系统分析、系统设计、系统实施）、运维及消亡</strong>四个阶段。</p></li><li><p>项目管理角度看项目的生命周期划分为<strong>启动、计划、执行、收尾</strong>等4个典型阶段。</p></li><li><p>信息化从“小”到“大”5个层次：<strong>产品信息化、企业信息化、产业信息化、国民经济信息化、社会生活信息化</strong>。</p></li><li><p>信息化的<strong>主体是全体社会成员</strong>，包括政府、企业、事业、团体和个人;它的时域是一个长期的过程;它的<strong>空域是政治、经济、文化、军事和社会的一切领域</strong>，它的<strong>手段是基于现代信息技术的先进社会生产工具</strong>，它的<strong>途径是创建信息时代的社会生产力，推动社会生产关系及社会上层建筑的改革</strong>，它的<strong>目标是使国家的综合实力、社会的文明素质和人民的生活质量全面提升</strong>。</p></li><li><p>“两网”，是指<strong>政务内网和政务外网</strong>。“一站”，是指<strong>政府门户网站</strong>。“四库”，即<strong>建立人口、法人单位、空间地理和自然资源、宏观经济等四个基础数据库</strong>。“十二金”，是指<strong>以“金”字冠名的 12 个重点业务系统</strong>。分为 3 类，一类是对加强监管、提高效率和推进公共服务起到核心作用的办公业务资源系统、宏观经济管理系统建设(金宏);第二类是增强政府收入能力、保证公共支出合理性的金税、金关、金财、金融监管(含金卡)、金审等 5 个业务系统建设;第三类是保障社会秩序、为国民经济和社会发展打下坚实基础的金盾、金保、金农、金水、金质等 5 个业务系统建设。</p></li><li><p>国家信息化体系包括<strong>信息技术应用、信息资源、信息网络、信息技术和产业、信息化人才、信息化法规政策和标准规范 6 个要素</strong>。</p></li><li><p>传统的信息技术包括<strong>计算工程、软件工程、网络工程、数据工程、信息安全</strong>等，而新一代信息技术诸如<strong>云计算、大数据、人工智能、物联网、移动互联</strong>等已经在两化融合智能制造、智慧城市、电子商务等领域有了较为成熟和广泛的应用，极大地推动了国民经济发展。</p></li><li><p><strong>信息资源与自然资源、物质资源</strong>相比，具有以下7个特点：</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs css"><span class="hljs-number">1</span>、能够重复使用，其价值在使用中得到体现;<br><span class="hljs-number">2</span>、信息资源的利用具有很强的目标导向，不同的信息在不同的用户中体现不同的价值;<br><span class="hljs-number">3</span>、具有广泛性。人们对其检索和利用，不受时间、空间、语言、地域和行业的制约;<br><span class="hljs-number">4</span>、是社会公共财富，也是商品，可以被交易或者交换:<br><span class="hljs-number">5</span>、具有流动性，通过信息网可以快速传输;<br><span class="hljs-number">6</span>、多态性，信息资源可以以数字、文字、图像、声音、视频等多种形态存在;<br><span class="hljs-number">7</span>、融合性，整合不同的信息资源并分析、挖掘，可以得到新的知识，取得比分散信息资源更高的价值。<br></code></pre></td></tr></table></figure></li></ol>]]></content>
-    
-    
-    <categories>
-      
-      <category>系统集成项目管理工程师</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>软考</tag>
-      
-      <tag>中级</tag>
-      
-      <tag>信息化知识</tag>
       
     </tags>
     
