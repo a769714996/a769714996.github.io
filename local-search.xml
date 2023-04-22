@@ -4,6 +4,296 @@
   
   
   <entry>
+    <title>软件质量保证和评价</title>
+    <link href="/2023/04/22/%E8%BD%AF%E4%BB%B6%E8%B4%A8%E9%87%8F%E4%BF%9D%E8%AF%81%E5%92%8C%E8%AF%84%E4%BB%B7/"/>
+    <url>/2023/04/22/%E8%BD%AF%E4%BB%B6%E8%B4%A8%E9%87%8F%E4%BF%9D%E8%AF%81%E5%92%8C%E8%AF%84%E4%BB%B7/</url>
+    
+    <content type="html"><![CDATA[<h2 id="基础知识点"><a href="#基础知识点" class="headerlink" title="基础知识点"></a>基础知识点</h2><ol><li>软件质量保证和质量评价的定义：<br>a.软件质量：内部质量、外部质量和使用质量<br>b.软件需求：定义了软件质量特性，及确认这些特性的方法和原则</li><li>软件质量保证和质量评价的名词：<br>a.验证：确保活动的输出产品<strong>已经被正确构造</strong>，即<strong>活动的输出产品满足活动的规范说明</strong><br>b.确认：确保<strong>构造了正确的产品</strong>，即产品满足其特定的目的<br>c.管理评审：<strong>监控进展</strong>，决定计划和进度的状态，或评价用于达到目标所用管理方法的有效性<br>d.技术评审：<strong>评价软件产品，以确定其对使用意图的适用性</strong><br>e.软件审计：提供软件产品和过程对可应用的规则、标准、指南、计划和流程的<strong>遵从性独立评价</strong>；审计是<strong>正式</strong>组织的活动，识别违例情况，并要生成审计报告，采取更正性行动<br>f.检查<br>h.走查</li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>系统集成项目管理工程师</category>
+      
+      <category>信息系统集成专业技术知识</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>软考</tag>
+      
+      <tag>信息系统集成专业技术知识</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>软件维护</title>
+    <link href="/2023/04/22/%E8%BD%AF%E4%BB%B6%E7%BB%B4%E6%8A%A4/"/>
+    <url>/2023/04/22/%E8%BD%AF%E4%BB%B6%E7%BB%B4%E6%8A%A4/</url>
+    
+    <content type="html"><![CDATA[<h2 id="基础知识点"><a href="#基础知识点" class="headerlink" title="基础知识点"></a>基础知识点</h2><ol><li>软件维护的定义：<br>a.需要提供软件支持的全部活动；<br>b.<strong>交付前要完成的活动</strong>：交付后的运行计划和维护计划；<br>c.<strong>交付后的活动</strong>：软件修改、培训、帮助资料。</li><li>软件维护的分类：<br>a.更正性维护：更正交付后发现的错误；<strong>修改BUG</strong>：设计错误、程序错误、数据错误、文档错误；<br>b.适应性维护：使用软件产品能够在变化后或变化中的环境中继续使用；<br>                     <strong>移植系统</strong>： ①影响系统的规则或规律的变化; ②硬件配置的变化，如机型、终端、外部设备的改变等；③数据格式或文件结构的改变；④软件支持环境的改变，如操作系统、编译器或实用程序的变化等。<br>c.完善性维护：改进交付后产品的性能和可维护性；<strong>增加功能，工作量最大</strong>，包括：①为扩充和增强功能而做的修改，如扩充解题范围和算法优化等；②为改善性能而作的修改，如提高运行速度、节省存储空间等；③为便于维护而做的修改，如为了改进易读性而增加一些注释等。<br>d.预防性维护：在软件产品中的潜在错误成为实际错误前，检测并更正它们；<strong>针对未来</strong></li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>系统集成项目管理工程师</category>
+      
+      <category>信息系统集成专业技术知识</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>软考</tag>
+      
+      <tag>信息系统集成专业技术知识</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>软件设计+软件测试</title>
+    <link href="/2023/04/22/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1-%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95/"/>
+    <url>/2023/04/22/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1-%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95/</url>
+    
+    <content type="html"><![CDATA[<h2 id="基础知识点"><a href="#基础知识点" class="headerlink" title="基础知识点"></a>基础知识点</h2><ol><li>软件设计的定义：<br>a.根据软件需求，产生一个软件内部结构的描述，并将其作为软件构造的基础；<br>b.通过软件设计，描述出软件架构及相关组件之间的接口；<br>c.然后，进一步详细地描述组件，以便能构造这些组件；<br>d.通过软件设计得到要实现的各种不同模型，并确定最终方案。</li><li>软件设计的分类：软件<strong>架构设计</strong>（也叫做高层设计）、软件<strong>详细设计</strong></li><li>软件测试的定义：<br>a.为了评价和改进产品质量、识别产品的缺陷和问题而进行的活动；<br>b.针对一个程序的行为，在有限测试用例集合上，<strong>动态验证</strong>是否达到预期的行为；<br>c.应尽可能在<strong>实际运行使用环境</strong>下进行；<br>d.不再只是一种仅在编码阶段完成后才开始的活动，包括在<strong>整个开发和维护过程</strong>中的活动</li><li>软件测试的阶段：单元测试、集成测试和系统测试</li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>系统集成项目管理工程师</category>
+      
+      <category>信息系统集成专业技术知识</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>软考</tag>
+      
+      <tag>信息系统集成专业技术知识</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>软件需求</title>
+    <link href="/2023/04/22/%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82/"/>
+    <url>/2023/04/22/%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82/</url>
+    
+    <content type="html"><![CDATA[<h2 id="基础知识点"><a href="#基础知识点" class="headerlink" title="基础知识点"></a>基础知识点</h2><ol><li>软件需求的定义：<br>a.针对待解决问题的特性的描述;<br>b.所定义的需求必须可以被验证(<strong>可验证性</strong>);<br>c.在资源有限时,可以通过优先级对需求进行权衡;</li><li>软件需求的作用：<br><strong>a.检测和解决需求之间的冲突；</strong><br><strong>b.发现系统的边界；</strong><br><strong>c.并详细描述出系统需求；</strong></li><li>软件需求的分类：<br>a.功能需求：系统必须完成的那些事；<br>b.非功能需求：产品必须具备的属性或品质,比如可靠性,容错；<br>c.设计约束：限制条件、补充规约，例如必须采用国有自主知识版权的数据库系统，必须运行在UNIX操作系统之下等。</li><li>3层次：<br>a.业务需求：表示<strong>组织或客户高层次的目标</strong>，业务需求通常来自<strong>项目投资人、购买产品的客户</strong>、实际用户的管理者、市场营销部门或产品策划部门；<br>b.用户需求：描述的是<strong>用户的目标</strong>，或用户要求系统必须能完成的任务；<br>c.功能需求：规定开发人员必须在产品中实现的软件功能，用户利用这些功能来完成任务，满足业务需求。</li><li>需求分析方法：<strong>结构化分析方法（SA）、面向对象的分析方法（OOA）</strong></li></ol><h2 id="相关练习题"><a href="#相关练习题" class="headerlink" title="相关练习题"></a>相关练习题</h2><ol><li>项目经理在需求调研的过程中，应尽可能的多了解客户的需求进行分析，并对需求进行分析，其做需求分析的目的一般不包括（）。<br>A.检测和解决需求之间的冲突<br><strong>B.定义潜在的风险</strong><br>C.发现软件的边界，以及软件与其环境如何交互<br>D.描述需求分析，以导出软件需求</li><li>需求分析是软件生存周期的重要工作，以下描述不正确的是（）。<br>A.软件需求是针对待解决问题的特征的描述<br><strong>B.绝大部分软件需求可以被验证，验证手段包括评审和测试</strong><br>C.需求分析可以检测和解决需求之间的冲突<br>D.在资源有限时，可以通过优先级对需求进行权衡</li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>系统集成项目管理工程师</category>
+      
+      <category>信息系统集成专业技术知识</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>软考</tag>
+      
+      <tag>信息系统集成专业技术知识</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>系统架构+设备DBMS技术选型</title>
+    <link href="/2023/04/18/%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84-%E8%AE%BE%E5%A4%87DBMS%E6%8A%80%E6%9C%AF%E9%80%89%E5%9E%8B/"/>
+    <url>/2023/04/18/%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84-%E8%AE%BE%E5%A4%87DBMS%E6%8A%80%E6%9C%AF%E9%80%89%E5%9E%8B/</url>
+    
+    <content type="html"><![CDATA[<h2 id="基础知识点"><a href="#基础知识点" class="headerlink" title="基础知识点"></a>基础知识点</h2><ol><li>系统架构：<br>a.将系统整体分解为更小的子系统和组件，从而形成不同的逻辑层或服务<br>b.之后，进一步确定各层的接口，层与层相互之间的关系<br>c.对整个系统的分解，既需要进行”<strong>纵向</strong>“分解，也需要对同一逻辑层分块，进行”<strong>横向</strong>“分解<br>d.系统的选项主要取决于<strong>系统架构</strong></li><li>设备、DBMS及技术选型：<br>a.考虑因素：系统的功能要求；系统实现的内外环境和主客观条件<br>b.注意：需要权衡各种可供选用的计算机硬件技术、软件技术、数据管理技术、数据通信技术和计算机网络技术及相关产品；必须考虑用户的使用要求、系统运行环境、现行的信息管理和信息技术的标准、规范及有关法律制度等</li></ol><h2 id="相关练习题"><a href="#相关练习题" class="headerlink" title="相关练习题"></a>相关练习题</h2><ol><li>关于信息系统设计的描述，正确的是（）。<br>A.人机界面设计是系统概要设计的任务之一<br>B.确定系统架构时，要对整个系统进行“纵向”分解而不是“横向”分解<br><strong>C.系统架构设计对设备选型起决定作用</strong><br>D.设备选型与法律制度无关</li><li>系统方案设计包括总体设计与各部分的详细设计，（）属于总体设计。<br>A.数据库设计B.代码设计<strong>C.网络系统的方案设计</strong>D.处理过程设计</li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>系统集成项目管理工程师</category>
+      
+      <category>信息系统集成专业技术知识</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>软考</tag>
+      
+      <tag>信息系统集成专业技术知识</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>软件设计</title>
+    <link href="/2023/04/18/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1/"/>
+    <url>/2023/04/18/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1/</url>
+    
+    <content type="html"><![CDATA[<h2 id="基础知识点"><a href="#基础知识点" class="headerlink" title="基础知识点"></a>基础知识点</h2><ol><li><p>软件设计的原则：<br><strong>高内聚</strong>：一个<strong>模块内部</strong>各个元素之间彼此结合的紧密程度的度量<br><strong>低耦合</strong>：<strong>模块间</strong>互相连接的紧密程度的度量，它反映了模块的独立性</p></li><li><p>信息系统设计的任务：<br>a.从信息系统的总体目标出发，根据系统逻辑功能的要求，并结合经济、技术条件、运行环境和进度等要求<br>b.确定系统的总体架构和系统各组成部分的技术方案，合理选择计算机、通信及存储的软、硬件设备<br>c.制订系统的实施计划</p></li><li><p>系统方案设计：<br>a.系统总体设计：<strong>系统的总体架构方案设计、软件系统的总体架构设计、数据存储的总体设计、计算机和网络系统的方案设计</strong><br>b.系统详细设计：<strong>代码设计、数据库设计、人&#x2F;机界面设计、处理过程设计</strong></p></li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>系统集成项目管理工程师</category>
+      
+      <category>信息系统集成专业技术知识</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>软考</tag>
+      
+      <tag>信息系统集成专业技术知识</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>开发方法</title>
+    <link href="/2023/04/17/%E5%BC%80%E5%8F%91%E6%96%B9%E6%B3%95/"/>
+    <url>/2023/04/17/%E5%BC%80%E5%8F%91%E6%96%B9%E6%B3%95/</url>
+    
+    <content type="html"><![CDATA[<h2 id="基础知识点"><a href="#基础知识点" class="headerlink" title="基础知识点"></a>基础知识点</h2><ol><li>结构化的定义：把整个系统的开发过程分为若干阶段，然后依次进行，前一阶段是后一阶段的工作依据，按顺序完成。每个阶段和主要步骤都有明确详尽的文档编制要求，并对其进行有效控制。</li><li>结构化的特点：注重开发过程的整体性和全局性，<strong>遵循用户至上原则、严格区分工作阶段、强调开发过程整体与全局性、过程工程化与文档资料标准化</strong>。</li><li>结构化的缺点：开发周期长；文档、设计说明繁琐，工作效率低；<strong>要求在开发之初全面认识系统的需求，充分预料各种可能发生的变化</strong>。</li><li>结构化的对应类型：瀑布模型；面向数据留的分析方法（<strong>利用图形表达用户需求、如数据流图与数据字典、实体-关系图、数据流图、数据字典、结构化语言、判定表以及判定树</strong>）</li><li>原型的定义：其认为在无法全面准确地提出用户需求的情况下，并不要求对系统做全面、详细的分析，而是基于对用户需求的初步理解，先快速开发一个原型系统，然后通过反复修改来实现用户的最终系统需求。</li><li>原型的特点：对用户的需求是动态响应、逐步纳入的；系统分析、设计与实现都是随着对原型的不断修改而同时完成的，相互之间并无明显接线，也没有明确分工；<strong>实际可行、具有最终系统的基本特征、构造方便、快速、造价低</strong>。</li><li>原型的适用情况：<strong>用于需求不明、管理方法结构化程度不高的系统</strong>，如果用户配合不好，盲目修改，就会拖延开发过程。</li><li>原型的分类：抛弃型原型、进化型原型。</li><li>面向对象的定义：用对象表示客观事物，对象是一个严格模块化的实体，在系统开发中可被共享和重复引用，以达到重复的目的。</li><li>面向对象的关键：能否建立一个全面、合理、统一的模型，既能反映需求对应的问题域，也能被计算机系统对应的求解域所接受。</li><li>面向对象的阶段：分析、设计、实现。</li><li>抛弃式原型（探索式原型）：用于<strong>解决需求不确定性、二义性、不完整性、含糊性</strong>等。</li><li>演化式原型：用在<strong>必须易于升级和优化</strong>的场合，特别适用于<strong>Web项目</strong>。</li></ol><h2 id="相关练习题"><a href="#相关练习题" class="headerlink" title="相关练习题"></a>相关练习题</h2><ol><li><p>常用的需求分析方法有：面向数据流的结构化分析方法（SA），面向对象的分析方法（00A）。（）不是结构化分析方法的图形工具。</p><p>A.决策树B.数据流图C.数据字典<strong>D.快速原型</strong></p></li><li><p>某企业信息化系统建设初期，无法全面准确获取需求，此时，可以基于对已有需求的初步理解，快速开发一个初步系统模型，然后通过反复修改实现用户的最终需求。这种开发方法称为（）。</p><p>A.结构法<strong>B.原型法</strong>C.瀑布模型法D.面向对象法</p></li><li><p>信息系统开发过程中，（）适合在无法全面准确提出用户需求的情况下，通过反复修改，动态响应用户需求来实现用户的最终需求。</p><p>A.结构化方法<strong>B.原型法</strong>C.瀑布法D.面向过程方法</p></li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>系统集成项目管理工程师</category>
+      
+      <category>信息系统集成专业技术知识</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>软考</tag>
+      
+      <tag>信息系统集成专业技术知识</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>系统集成的特点、信息系统的生命周期</title>
+    <link href="/2023/04/17/%E7%B3%BB%E7%BB%9F%E9%9B%86%E6%88%90%E7%9A%84%E7%89%B9%E7%82%B9%E3%80%81%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/"/>
+    <url>/2023/04/17/%E7%B3%BB%E7%BB%9F%E9%9B%86%E6%88%90%E7%9A%84%E7%89%B9%E7%82%B9%E3%80%81%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/</url>
+    
+    <content type="html"><![CDATA[<h2 id="基础知识点"><a href="#基础知识点" class="headerlink" title="基础知识点"></a>基础知识点</h2><ol><li>系统集成的特点：信息系统建设的内容主要包括设备采购、系统集成、软件开啊和运维服务等；信息系统集成是指将计算机软件、硬件、网络通信、信息安全等技术和产品<strong>集成</strong>为能够满足用户特定需求的信息系统。</li><li>信息系统的生命周期：需求→概要设计→详细设计→编码→测试→验收<br>①立项：<strong>概念阶段或需求阶段</strong>，根据用户业务发展和经营管理的需要，提出就建设信息系统的<strong>初步构想</strong>，对企业信息系统的需求进行深入调研和分析，形成《<strong>需求规格说明书</strong>》并确定立项。<br>②开发（<strong>关键</strong>）：以立项阶段所做的需求分析为基础，进行总体规划；通过<strong>系统分析（建模）、系统设计、系统实施、系统验收</strong>等工作实现并交付系统。<br>③运维：信息系统通过验收，正式移交用户。分为<strong>更正性、适应性、完善性、预防性维护</strong>等四个主要类型。<br>④消亡：信息系统不可避免地会遇到系统更新改造、功能扩展，甚至废弃重建等情况，在信息系统建设的<strong>初期</strong>就应该注意系统消亡条件和时机，以及由此而花费的成本。</li></ol><h2 id="相关练习题"><a href="#相关练习题" class="headerlink" title="相关练习题"></a>相关练习题</h2><ol><li><p>信息系统的生命周期可以分为立项、开发、运维及消亡四个阶段。以下对各阶段的叙述中，不正确的是（）。<br>A.立项阶段：依据业务发展和经营管理的需要，提出建设信息系统的初步构想，对企业信息系统的需求进行深入调研和分析，形成《需求规格说明书》<br>B.开发阶段：通过系统分析，系统设计、系统实施、系统验收等工作实现并交付系统<br><strong>C.运维阶段：信息系统通过验收，正式移交给用户后的阶段。系统的运行维护就是更正性维护</strong><br>D.消广阶段：信息系统不可避免地会遇到系统的更新改造甚至废弃重建等</p></li><li><p>在信息系统的生命周期中，“对企业信息系统的需求进行深入调研和分析，形成《需求规格说明书》”是在（）阶段进行的。<br><strong>A.立项</strong>B.可行性分析C.运维阶段D.消亡</p></li><li><p>信息系统的生命周期中，在（）阶段形成《需求规格说明书》。<br><strong>A.立项</strong>B.设计C.集成D.运维</p></li><li><p>信息系统的生命周期可以分为立项、开发、运维及（）四个阶段。<br>A.立项B.下线<strong>C.消亡</strong>D.重建</p></li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>系统集成项目管理工程师</category>
+      
+      <category>信息系统集成专业技术知识</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>软考</tag>
+      
+      <tag>信息系统集成专业技术知识</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>软件开发工具和软件复用</title>
+    <link href="/2023/04/03/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E5%92%8C%E8%BD%AF%E4%BB%B6%E5%A4%8D%E7%94%A8/"/>
+    <url>/2023/04/03/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E5%92%8C%E8%BD%AF%E4%BB%B6%E5%A4%8D%E7%94%A8/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    <categories>
+      
+      <category>系统集成项目管理工程师</category>
+      
+      <category>信息系统集成专业技术知识</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>软考</tag>
+      
+      <tag>信息系统集成专业技术知识</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>软件配置管理和软件过程管理</title>
+    <link href="/2023/04/03/%E8%BD%AF%E4%BB%B6%E9%85%8D%E7%BD%AE%E7%AE%A1%E7%90%86%E5%92%8C%E8%BD%AF%E4%BB%B6%E8%BF%87%E7%A8%8B%E7%AE%A1%E7%90%86/"/>
+    <url>/2023/04/03/%E8%BD%AF%E4%BB%B6%E9%85%8D%E7%BD%AE%E7%AE%A1%E7%90%86%E5%92%8C%E8%BD%AF%E4%BB%B6%E8%BF%87%E7%A8%8B%E7%AE%A1%E7%90%86/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    <categories>
+      
+      <category>系统集成项目管理工程师</category>
+      
+      <category>信息系统集成专业技术知识</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>软考</tag>
+      
+      <tag>信息系统集成专业技术知识</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>信息系统审计</title>
     <link href="/2023/04/01/%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F%E5%AE%A1%E8%AE%A1/"/>
     <url>/2023/04/01/%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F%E5%AE%A1%E8%AE%A1/</url>

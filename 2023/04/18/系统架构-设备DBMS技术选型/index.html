@@ -16,21 +16,21 @@
   <meta name="description" content="">
   <meta name="author" content="张顶天">
   <meta name="keywords" content="">
-  <meta name="description" content="基础知识点 信息系统审计的目的：评估并提供反馈、保证和建议。  信息系统审计的关注之处：可用性、保密性、完整性  信息系统审计的组成部分：①信息系统的管理、规划与组织②信息系统技术基础设施与操作实务③资产的保护④灾难恢复与业务持续计划⑤应用系统开发、获得、实施与维护⑥业务流程评价与风险管理  信息系统审计原则：①ISACA公告②ISACA公告执业准则③ISACA职业道德规范  信息系统审计基本原则">
+  <meta name="description" content="基础知识点 系统架构：a.将系统整体分解为更小的子系统和组件，从而形成不同的逻辑层或服务b.之后，进一步确定各层的接口，层与层相互之间的关系c.对整个系统的分解，既需要进行”纵向“分解，也需要对同一逻辑层分块，进行”横向“分解d.系统的选项主要取决于系统架构 设备、DBMS及技术选型：a.考虑因素：系统的功能要求；系统实现的内外环境和主客观条件b.注意：需要权衡各种可供选用的计算机硬件技术、软件技">
 <meta property="og:type" content="article">
-<meta property="og:title" content="信息系统审计">
-<meta property="og:url" content="http://example.com/2023/04/01/%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F%E5%AE%A1%E8%AE%A1/index.html">
+<meta property="og:title" content="系统架构+设备DBMS技术选型">
+<meta property="og:url" content="http://example.com/2023/04/18/%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84-%E8%AE%BE%E5%A4%87DBMS%E6%8A%80%E6%9C%AF%E9%80%89%E5%9E%8B/index.html">
 <meta property="og:site_name" content="顶天的博客">
-<meta property="og:description" content="基础知识点 信息系统审计的目的：评估并提供反馈、保证和建议。  信息系统审计的关注之处：可用性、保密性、完整性  信息系统审计的组成部分：①信息系统的管理、规划与组织②信息系统技术基础设施与操作实务③资产的保护④灾难恢复与业务持续计划⑤应用系统开发、获得、实施与维护⑥业务流程评价与风险管理  信息系统审计原则：①ISACA公告②ISACA公告执业准则③ISACA职业道德规范  信息系统审计基本原则">
+<meta property="og:description" content="基础知识点 系统架构：a.将系统整体分解为更小的子系统和组件，从而形成不同的逻辑层或服务b.之后，进一步确定各层的接口，层与层相互之间的关系c.对整个系统的分解，既需要进行”纵向“分解，也需要对同一逻辑层分块，进行”横向“分解d.系统的选项主要取决于系统架构 设备、DBMS及技术选型：a.考虑因素：系统的功能要求；系统实现的内外环境和主客观条件b.注意：需要权衡各种可供选用的计算机硬件技术、软件技">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-04-01T06:04:49.000Z">
-<meta property="article:modified_time" content="2023-04-01T07:02:58.623Z">
+<meta property="article:published_time" content="2023-04-18T12:18:18.000Z">
+<meta property="article:modified_time" content="2023-04-18T12:34:01.983Z">
 <meta property="article:author" content="张顶天">
 <meta property="article:tag" content="软考">
-<meta property="article:tag" content="服务管理">
+<meta property="article:tag" content="信息系统集成专业技术知识">
 <meta name="twitter:card" content="summary_large_image">
   
-  <title>信息系统审计 - 顶天的博客</title>
+  <title>系统架构+设备DBMS技术选型 - 顶天的博客</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4/dist/css/bootstrap.min.css" />
 
@@ -189,7 +189,7 @@
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="信息系统审计">
+            <span class="h2" id="subtitle" title="系统架构+设备DBMS技术选型">
               
             </span>
 
@@ -204,8 +204,8 @@
   
     <span class="post-meta">
       <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-      <time datetime="2023-04-01 14:04" pubdate>
-        2023年4月1日 下午
+      <time datetime="2023-04-18 20:18" pubdate>
+        2023年4月18日 晚上
       </time>
     </span>
   
@@ -215,7 +215,7 @@
   
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      738 字
+      443 字
     </span>
   
 
@@ -224,7 +224,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      2 分钟
+      1 分钟
     </span>
   
 
@@ -261,38 +261,22 @@
         <div class="py-5" id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">信息系统审计</h1>
+            <h1 style="display: none">系统架构+设备DBMS技术选型</h1>
             
               <p class="note note-info">
                 
-                  本文最后更新于：2023年4月1日 下午
+                  本文最后更新于：2023年4月18日 晚上
                 
               </p>
             
             <div class="markdown-body">
               <h2 id="基础知识点"><a href="#基础知识点" class="headerlink" title="基础知识点"></a>基础知识点</h2><ol>
-<li><p>信息系统审计的目的：评估并提供反馈、保证和建议。</p>
-</li>
-<li><p>信息系统审计的关注之处：<strong>可用性、保密性、完整性</strong></p>
-</li>
-<li><p>信息系统审计的组成部分：<br>①信息系统的管理、规划与组织<br>②信息系统技术基础设施与操作实务<br>③资产的保护<br>④灾难恢复与业务持续计划<br>⑤应用系统开发、获得、实施与维护<br>⑥业务流程评价与风险管理</p>
-</li>
-<li><p>信息系统审计原则：<br>①ISACA公告<br>②ISACA公告执业准则<br>③ISACA职业道德规范</p>
-</li>
-<li><p>信息系统审计基本原则：<br>①满足利益相关者需求<br>②端到端覆盖企业<br>③采用单一集成框架<br>④启用一种综合的方法<br>⑤区分治理和管理</p>
-</li>
-<li><p>风险的审计方法：企业风险、确定风险、风险评估、风险管理、风险沟通</p>
-</li>
-<li><p>审计的步骤：<br>①编制组织使用的信息系统清单并对其进行<strong>分类</strong><br>②决定哪些系统影响<strong>关键功能和资产</strong><br>③<strong>评估</strong>哪些风险影响这些系统及对商业运作的<strong>冲击</strong><br>④在上述评估的基础上对系统分级，<strong>决定审计优先值、资源、进度和频率</strong>。审计者可以制定年度审计计划，并列出一年之中要进行的审计项目。</p>
-</li>
-<li><p>审计流程</p>
-</li>
+<li>系统架构：<br>a.将系统整体分解为更小的子系统和组件，从而形成不同的逻辑层或服务<br>b.之后，进一步确定各层的接口，层与层相互之间的关系<br>c.对整个系统的分解，既需要进行”<strong>纵向</strong>“分解，也需要对同一逻辑层分块，进行”<strong>横向</strong>“分解<br>d.系统的选项主要取决于<strong>系统架构</strong></li>
+<li>设备、DBMS及技术选型：<br>a.考虑因素：系统的功能要求；系统实现的内外环境和主客观条件<br>b.注意：需要权衡各种可供选用的计算机硬件技术、软件技术、数据管理技术、数据通信技术和计算机网络技术及相关产品；必须考虑用户的使用要求、系统运行环境、现行的信息管理和信息技术的标准、规范及有关法律制度等</li>
 </ol>
 <h2 id="相关练习题"><a href="#相关练习题" class="headerlink" title="相关练习题"></a>相关练习题</h2><ol>
-<li>信息系统审计的目的是评估并提供反馈、保证和建议。其关注支出可分为3类，分别是（）。<br>A.保密性、及时性、完整性<br>B.可用性、及时性、准确性<br>C.保密性、准确性、完整性<br><strong>D.可用性、保密性、完整性</strong></li>
-<li>一般公认信息系统审计原则不包括（）。<br>A.ISACA公告	B.ISACA公告职业准则	C.ISACA职业道德规范	<strong>D.COBIT框架</strong></li>
-<li>基于风险方法进行信息系统审计的步骤是（）。<br>①决定哪些系统影响关键功能和资产<br>②评估哪些风险影响这些系统及商业运作的冲击<br>③编制组织使用的信息系统清单并对其分类<br>④在评估的基础上对系统分级，决定审计优先值&#x2F;资源&#x2F;进度和频率<br>A.①②③④	B.①③②④	C.③①④	<strong>D.③①②④</strong></li>
-<li>（）不属于信息系统审计的关注点。<br>A.完整性	B.可用性	C.保密性	<strong>D.可扩展性</strong></li>
+<li>关于信息系统设计的描述，正确的是（）。<br>A.人机界面设计是系统概要设计的任务之一<br>B.确定系统架构时，要对整个系统进行“纵向”分解而不是“横向”分解<br><strong>C.系统架构设计对设备选型起决定作用</strong><br>D.设备选型与法律制度无关</li>
+<li>系统方案设计包括总体设计与各部分的详细设计，（）属于总体设计。<br>A.数据库设计	B.代码设计	<strong>C.网络系统的方案设计</strong>	D.处理过程设计</li>
 </ol>
 
             </div>
@@ -305,7 +289,7 @@
                     
                       <a class="hover-with-bg" href="/categories/%E7%B3%BB%E7%BB%9F%E9%9B%86%E6%88%90%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E5%B7%A5%E7%A8%8B%E5%B8%88/">系统集成项目管理工程师</a>
                     
-                      <a class="hover-with-bg" href="/categories/%E7%B3%BB%E7%BB%9F%E9%9B%86%E6%88%90%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E5%B7%A5%E7%A8%8B%E5%B8%88/%E6%9C%8D%E5%8A%A1%E7%AE%A1%E7%90%86/">服务管理</a>
+                      <a class="hover-with-bg" href="/categories/%E7%B3%BB%E7%BB%9F%E9%9B%86%E6%88%90%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E5%B7%A5%E7%A8%8B%E5%B8%88/%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F%E9%9B%86%E6%88%90%E4%B8%93%E4%B8%9A%E6%8A%80%E6%9C%AF%E7%9F%A5%E8%AF%86/">信息系统集成专业技术知识</a>
                     
                   </div>
                 
@@ -315,7 +299,7 @@
                     
                       <a class="hover-with-bg" href="/tags/%E8%BD%AF%E8%80%83/">软考</a>
                     
-                      <a class="hover-with-bg" href="/tags/%E6%9C%8D%E5%8A%A1%E7%AE%A1%E7%90%86/">服务管理</a>
+                      <a class="hover-with-bg" href="/tags/%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F%E9%9B%86%E6%88%90%E4%B8%93%E4%B8%9A%E6%8A%80%E6%9C%AF%E7%9F%A5%E8%AF%86/">信息系统集成专业技术知识</a>
                     
                   </div>
                 
@@ -332,9 +316,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2023/04/03/%E8%BD%AF%E4%BB%B6%E9%85%8D%E7%BD%AE%E7%AE%A1%E7%90%86%E5%92%8C%E8%BD%AF%E4%BB%B6%E8%BF%87%E7%A8%8B%E7%AE%A1%E7%90%86/">
+                      <a href="/2023/04/22/%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82/">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">软件配置管理和软件过程管理</span>
+                        <span class="hidden-mobile">软件需求</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -342,8 +326,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2023/04/01/%E6%9C%8D%E5%8A%A1%E7%AE%A1%E7%90%86/">
-                        <span class="hidden-mobile">服务管理</span>
+                      <a href="/2023/04/18/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1/">
+                        <span class="hidden-mobile">软件设计</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
