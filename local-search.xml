@@ -4,6 +4,64 @@
   
   
   <entry>
+    <title>软件开发工具和软件复用</title>
+    <link href="/2023/04/23/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E5%92%8C%E8%BD%AF%E4%BB%B6%E5%A4%8D%E7%94%A8/"/>
+    <url>/2023/04/23/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E5%92%8C%E8%BD%AF%E4%BB%B6%E5%A4%8D%E7%94%A8/</url>
+    
+    <content type="html"><![CDATA[<h2 id="基础知识点"><a href="#基础知识点" class="headerlink" title="基础知识点"></a>基础知识点</h2><ol><li>软件开发工具：<br>a.需求工具—需求建模工具和需求追踪工具<br>b.设计工具—软件设计创建和检查工具<br>c.构造工具—程序编辑器、编译器、代码生成器、解释器、调试器<br>d.测试工具—测试生成器、测试执行框架、测试评价工具、测试管理工具、性能分析功能<br>e.维护工具—理解工具（如可视化工具）和再造工具（如重构工具）<br>f.配置管理工具—<strong>追踪工具、版本管理工具和发布工具</strong></li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>系统集成项目管理工程师</category>
+      
+      <category>信息系统集成专业技术知识</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>软考</tag>
+      
+      <tag>信息系统集成专业技术知识</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>软件配置管理和软件过程管理</title>
+    <link href="/2023/04/23/%E8%BD%AF%E4%BB%B6%E9%85%8D%E7%BD%AE%E7%AE%A1%E7%90%86%E5%92%8C%E8%BD%AF%E4%BB%B6%E8%BF%87%E7%A8%8B%E7%AE%A1%E7%90%86/"/>
+    <url>/2023/04/23/%E8%BD%AF%E4%BB%B6%E9%85%8D%E7%BD%AE%E7%AE%A1%E7%90%86%E5%92%8C%E8%BD%AF%E4%BB%B6%E8%BF%87%E7%A8%8B%E7%AE%A1%E7%90%86/</url>
+    
+    <content type="html"><![CDATA[<h2 id="基础知识点"><a href="#基础知识点" class="headerlink" title="基础知识点"></a>基础知识点</h2><ol><li>软件配置管理：<br>a.软件配置管理计划—需要了解组织结构环境和组织单元之间的联系，明确软件配置控制系统<br>b.<strong>软件配置标识</strong>—识别要控制的配置项，并为这些配置项及其版本建立基线<br>c.软件配置控制—关注的是管理软件生命周期中的变更<br>d.软件配置状态记录—标识、收集、维护并报告配置管理的配置状态信息<br>e.<strong>软件配置审计</strong>—独立评价软件产品和过程是否遵从已有的规则、标准、指南、计划和流程而进行的活动<br>f.软件发布管理与交付—通常需要创建特定的交付版本，完成此任务的关键是软件库</li><li>软件过程管理：<br>a.项目启动与范围定义<br>b.项目规划<br>c.项目实施<br>d.项目监控与评审<br>e.项目收尾与关闭</li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>系统集成项目管理工程师</category>
+      
+      <category>信息系统集成专业技术知识</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>软考</tag>
+      
+      <tag>信息系统集成专业技术知识</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>软件质量保证和评价</title>
     <link href="/2023/04/22/%E8%BD%AF%E4%BB%B6%E8%B4%A8%E9%87%8F%E4%BF%9D%E8%AF%81%E5%92%8C%E8%AF%84%E4%BB%B7/"/>
     <url>/2023/04/22/%E8%BD%AF%E4%BB%B6%E8%B4%A8%E9%87%8F%E4%BF%9D%E8%AF%81%E5%92%8C%E8%AF%84%E4%BB%B7/</url>
@@ -212,64 +270,6 @@
     <url>/2023/04/17/%E7%B3%BB%E7%BB%9F%E9%9B%86%E6%88%90%E7%9A%84%E7%89%B9%E7%82%B9%E3%80%81%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/</url>
     
     <content type="html"><![CDATA[<h2 id="基础知识点"><a href="#基础知识点" class="headerlink" title="基础知识点"></a>基础知识点</h2><ol><li>系统集成的特点：信息系统建设的内容主要包括设备采购、系统集成、软件开啊和运维服务等；信息系统集成是指将计算机软件、硬件、网络通信、信息安全等技术和产品<strong>集成</strong>为能够满足用户特定需求的信息系统。</li><li>信息系统的生命周期：需求→概要设计→详细设计→编码→测试→验收<br>①立项：<strong>概念阶段或需求阶段</strong>，根据用户业务发展和经营管理的需要，提出就建设信息系统的<strong>初步构想</strong>，对企业信息系统的需求进行深入调研和分析，形成《<strong>需求规格说明书</strong>》并确定立项。<br>②开发（<strong>关键</strong>）：以立项阶段所做的需求分析为基础，进行总体规划；通过<strong>系统分析（建模）、系统设计、系统实施、系统验收</strong>等工作实现并交付系统。<br>③运维：信息系统通过验收，正式移交用户。分为<strong>更正性、适应性、完善性、预防性维护</strong>等四个主要类型。<br>④消亡：信息系统不可避免地会遇到系统更新改造、功能扩展，甚至废弃重建等情况，在信息系统建设的<strong>初期</strong>就应该注意系统消亡条件和时机，以及由此而花费的成本。</li></ol><h2 id="相关练习题"><a href="#相关练习题" class="headerlink" title="相关练习题"></a>相关练习题</h2><ol><li><p>信息系统的生命周期可以分为立项、开发、运维及消亡四个阶段。以下对各阶段的叙述中，不正确的是（）。<br>A.立项阶段：依据业务发展和经营管理的需要，提出建设信息系统的初步构想，对企业信息系统的需求进行深入调研和分析，形成《需求规格说明书》<br>B.开发阶段：通过系统分析，系统设计、系统实施、系统验收等工作实现并交付系统<br><strong>C.运维阶段：信息系统通过验收，正式移交给用户后的阶段。系统的运行维护就是更正性维护</strong><br>D.消广阶段：信息系统不可避免地会遇到系统的更新改造甚至废弃重建等</p></li><li><p>在信息系统的生命周期中，“对企业信息系统的需求进行深入调研和分析，形成《需求规格说明书》”是在（）阶段进行的。<br><strong>A.立项</strong>B.可行性分析C.运维阶段D.消亡</p></li><li><p>信息系统的生命周期中，在（）阶段形成《需求规格说明书》。<br><strong>A.立项</strong>B.设计C.集成D.运维</p></li><li><p>信息系统的生命周期可以分为立项、开发、运维及（）四个阶段。<br>A.立项B.下线<strong>C.消亡</strong>D.重建</p></li></ol>]]></content>
-    
-    
-    <categories>
-      
-      <category>系统集成项目管理工程师</category>
-      
-      <category>信息系统集成专业技术知识</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>软考</tag>
-      
-      <tag>信息系统集成专业技术知识</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>软件开发工具和软件复用</title>
-    <link href="/2023/04/03/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E5%92%8C%E8%BD%AF%E4%BB%B6%E5%A4%8D%E7%94%A8/"/>
-    <url>/2023/04/03/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E5%92%8C%E8%BD%AF%E4%BB%B6%E5%A4%8D%E7%94%A8/</url>
-    
-    <content type="html"><![CDATA[]]></content>
-    
-    
-    <categories>
-      
-      <category>系统集成项目管理工程师</category>
-      
-      <category>信息系统集成专业技术知识</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>软考</tag>
-      
-      <tag>信息系统集成专业技术知识</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>软件配置管理和软件过程管理</title>
-    <link href="/2023/04/03/%E8%BD%AF%E4%BB%B6%E9%85%8D%E7%BD%AE%E7%AE%A1%E7%90%86%E5%92%8C%E8%BD%AF%E4%BB%B6%E8%BF%87%E7%A8%8B%E7%AE%A1%E7%90%86/"/>
-    <url>/2023/04/03/%E8%BD%AF%E4%BB%B6%E9%85%8D%E7%BD%AE%E7%AE%A1%E7%90%86%E5%92%8C%E8%BD%AF%E4%BB%B6%E8%BF%87%E7%A8%8B%E7%AE%A1%E7%90%86/</url>
-    
-    <content type="html"><![CDATA[]]></content>
     
     
     <categories>
