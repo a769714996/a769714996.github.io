@@ -4,6 +4,296 @@
   
   
   <entry>
+    <title>面向对象</title>
+    <link href="/2023/05/05/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/"/>
+    <url>/2023/05/05/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/</url>
+    
+    <content type="html"><![CDATA[<h2 id="基础知识点"><a href="#基础知识点" class="headerlink" title="基础知识点"></a>基础知识点</h2><ol><li>客观存在的事物都是对象。</li><li>面向对象和面向过程的区别：<br><strong>a.面向对象是将实物高度抽象化。</strong><br><strong>b.面向过程是一种自顶向下的编程。</strong><br><strong>c.而面向对象是自下先建立抽象模型然后再使用模型。</strong></li><li>对象：是由<strong>数据</strong>及其<strong>操作</strong>所构成的封装体，包含三个基本要素，分贝事<strong>对象标识、对象状态和对象行为</strong>，是系统中用来描述客观事物的一个模块，是构成系统的基本单位，是由一组<strong>属性</strong>和对这组<strong>属性</strong>进行的操作构成的。</li><li>类：现实世界中实体的形式化描述；将该实体的<strong>属性（数据）和操作（函数）</strong>封装在一起。<br><strong>a.每一个对象都是某一个类的实例</strong><br><strong>b.每一个类在某一时刻都有零或更多的实例</strong><br><strong>c.类是静态的，对象是动态的</strong><br><strong>d.类是生成对象的模板</strong></li><li>类和对象的关系可理解为：<strong>对象是类的实例，类是对象的模板，如果将对象比作房子，那么类就是房子的设计图纸。</strong></li><li>抽象：通过特定的实例抽取共同特征后形成概念的过程，对象是现实世界中某个实体的抽象，类是一组对象的抽象。</li><li>封装：将相关的概念组成一个单元，然后通过一个名称来引用它，将数据和基于数据的操作封装成一个整体对象，对数据的访问或修改只能通过对象对外提供的<strong>接口</strong>进行。</li><li>继承：表示<strong>类</strong>之间的层次关系，又可分为单继承和多继承；<strong>继承自父类的属性特征，不需要在子类中进行重复说明</strong>。</li><li>多态：<strong>使得在多个类中可以定义同一个操作或属性名，并在每个类中可以有不同的实现；使得某个属性或操作在不同的时期可以表示不同类的对象特性；意味着一个对象有着多重特征，可以在特定的情况下，表现不同的状态，从而对应着不同的属性和方法</strong>。</li><li>接口：描述对<strong>操作规范的说明</strong>，其只说明操作应该<strong>做什么</strong>，并定义操作<strong>如何做</strong>。</li><li>消息：体现<strong>对象间的交互</strong>，通过它向目标对象发送操作请求。</li><li>组件：表示软件系统可替换的、物理的组成部分，封装了模块功能的实现，应当是内聚的，并具有相对稳定的公开接口。</li><li>模式：描述了一个不断重复发生的问题，以及该问题的解决方案，包括特定环境、问题和解决方案三个组成部分。</li><li>复用：将已有的软件及其有效成分用于构造新的软件或系统。</li></ol><h2 id="相关练习题"><a href="#相关练习题" class="headerlink" title="相关练习题"></a>相关练习题</h2><ol><li>关于对象、类、继承、多态的描述，不正确的是（）。<br>A.对象包含对象标识、对象状态和对象行为三个基本要素<br><strong>B.类是对象的实例，对象是类的模板</strong><br>C.继承是表示类之间的层次关系<br>D.多态使得同一个操作在不同类中有不同的实现方式</li><li>进行面向对象系统分析和设计时，将相关的概念组成一个单元模块，并通过一个名称来引用它，这种行为叫做（）。<br>A.继承    <strong>B.封装</strong>   C.抽象   D.复用</li><li>关于面向对象概念的描述，正确的是（）。<br>A.对象包含两个基本要素，分别是对象状态和对象行为<br>B.如果把对象比作房屋设计图纸，那么类就是实际的房子<br>C.继承表示对象间的层次关系<br><strong>D.多态在多个类中可以定义同一个操作或属性名，并在每一个类中可以有不同的实现。</strong></li><li>对象由一组属性和对这组属性进行的操作构成。例如，老师张三的个人信息包括：性别、年龄、职位等，日常工作包括授课等。则（）就是封装后的一个典型对象。<br><strong>A.张三</strong>   B.老师   C.授课   D.姓名</li><li>（）是现实世界中实体的形式化描述，将实体的属性（数据）和操作（函数）封装在一起。<br>A.服务   <strong>B.类</strong>   C.接口   D.消息</li><li>在面向对象系统分析与设计中，（）使得在多个类中可以定义同一个操作或属性名，并在每个类中可以有不同的实现。<br>A.继承   <strong>B.多态</strong>   C.复用   D.组件</li><li>（）描述对操作规范的说明，其只说明操作应该做什么，并定义操作如何做。<br><strong>A.接口</strong>   B.生态   C.封装   D.继承</li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>系统集成项目管理工程师</category>
+      
+      <category>信息系统集成专业技术知识</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>软考</tag>
+      
+      <tag>信息系统集成专业技术知识</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>网络安全</title>
+    <link href="/2023/05/04/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/"/>
+    <url>/2023/05/04/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    <categories>
+      
+      <category>系统集成项目管理工程师</category>
+      
+      <category>信息系统集成专业技术知识</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>软考</tag>
+      
+      <tag>信息系统集成专业技术知识</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>计算机网络</title>
+    <link href="/2023/05/04/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    <url>/2023/05/04/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    <categories>
+      
+      <category>系统集成项目管理工程师</category>
+      
+      <category>信息系统集成专业技术知识</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>软考</tag>
+      
+      <tag>信息系统集成专业技术知识</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>组件</title>
+    <link href="/2023/05/04/%E7%BB%84%E4%BB%B6/"/>
+    <url>/2023/05/04/%E7%BB%84%E4%BB%B6/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    <categories>
+      
+      <category>系统集成项目管理工程师</category>
+      
+      <category>信息系统集成专业技术知识</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>软考</tag>
+      
+      <tag>信息系统集成专业技术知识</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>J2EE和.NET技术、软件引擎技术</title>
+    <link href="/2023/05/04/J2EE%E5%92%8C-NET%E6%8A%80%E6%9C%AF%E3%80%81%E8%BD%AF%E4%BB%B6%E5%BC%95%E6%93%8E%E6%8A%80%E6%9C%AF/"/>
+    <url>/2023/05/04/J2EE%E5%92%8C-NET%E6%8A%80%E6%9C%AF%E3%80%81%E8%BD%AF%E4%BB%B6%E5%BC%95%E6%93%8E%E6%8A%80%E6%9C%AF/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    <categories>
+      
+      <category>系统集成项目管理工程师</category>
+      
+      <category>信息系统集成专业技术知识</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>软考</tag>
+      
+      <tag>信息系统集成专业技术知识</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Service技术</title>
+    <link href="/2023/05/04/WebService%E6%8A%80%E6%9C%AF/"/>
+    <url>/2023/05/04/WebService%E6%8A%80%E6%9C%AF/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    <categories>
+      
+      <category>系统集成项目管理工程师</category>
+      
+      <category>信息系统集成专业技术知识</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>软考</tag>
+      
+      <tag>信息系统集成专业技术知识</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>数据库和数据仓库</title>
+    <link href="/2023/05/04/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%92%8C%E6%95%B0%E6%8D%AE%E4%BB%93%E5%BA%93/"/>
+    <url>/2023/05/04/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%92%8C%E6%95%B0%E6%8D%AE%E4%BB%93%E5%BA%93/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    <categories>
+      
+      <category>系统集成项目管理工程师</category>
+      
+      <category>信息系统集成专业技术知识</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>软考</tag>
+      
+      <tag>信息系统集成专业技术知识</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>软件中间件</title>
+    <link href="/2023/05/04/%E8%BD%AF%E4%BB%B6%E4%B8%AD%E9%97%B4%E4%BB%B6/"/>
+    <url>/2023/05/04/%E8%BD%AF%E4%BB%B6%E4%B8%AD%E9%97%B4%E4%BB%B6/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    <categories>
+      
+      <category>系统集成项目管理工程师</category>
+      
+      <category>信息系统集成专业技术知识</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>软考</tag>
+      
+      <tag>信息系统集成专业技术知识</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>软件架构</title>
+    <link href="/2023/05/04/%E8%BD%AF%E4%BB%B6%E6%9E%B6%E6%9E%84/"/>
+    <url>/2023/05/04/%E8%BD%AF%E4%BB%B6%E6%9E%B6%E6%9E%84/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    <categories>
+      
+      <category>系统集成项目管理工程师</category>
+      
+      <category>信息系统集成专业技术知识</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>软考</tag>
+      
+      <tag>信息系统集成专业技术知识</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>UML</title>
+    <link href="/2023/05/04/UML/"/>
+    <url>/2023/05/04/UML/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    <categories>
+      
+      <category>系统集成项目管理工程师</category>
+      
+      <category>信息系统集成专业技术知识</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>软考</tag>
+      
+      <tag>信息系统集成专业技术知识</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>软件开发工具和软件复用</title>
     <link href="/2023/04/23/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E5%92%8C%E8%BD%AF%E4%BB%B6%E5%A4%8D%E7%94%A8/"/>
     <url>/2023/04/23/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E5%92%8C%E8%BD%AF%E4%BB%B6%E5%A4%8D%E7%94%A8/</url>
